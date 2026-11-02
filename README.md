@@ -33,6 +33,9 @@ On short clips it runs about twice as fast as large-v3-turbo with close accuracy
 ## Usage
 
 ```bash
+pip install -U huggingface_hub
+hf download itsma77e/yapper-turbo --local-dir yapper-turbo
+cd yapper-turbo
 pip install -r requirements.txt
 ```
 
@@ -41,7 +44,7 @@ Use these versions: with PyAV 19, faster-whisper 1.2.1 fails to open audio.
 ```python
 from yapper_asr import YapperModel
 
-model = YapperModel("path/to/model")
+model = YapperModel(".")
 print(model.transcribe("audio.wav", language="it"))
 ```
 
