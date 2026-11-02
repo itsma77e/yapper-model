@@ -1,0 +1,13 @@
+The Yapper model is derived from OpenAI Whisper large-v3-turbo.
+Copyright (c) 2022 OpenAI. MIT License: licenses/WHISPER-MIT.txt
+https://huggingface.co/openai/whisper-large-v3-turbo
+
+Training and evaluation used the Google FLEURS dataset, CC BY 4.0.
+https://huggingface.co/datasets/google/fleurs
+No FLEURS audio is distributed here. eval/fresh-manifest.json contains FLEURS
+transcriptions under CC BY 4.0, unmodified.
+
+The evaluation uses large-v3-turbo converted to CTranslate2 by Mobius Labs GmbH.
+https://huggingface.co/mobiuslabsgmbh/faster-whisper-large-v3-turbo
+
+The MIT License grants no rights to the Yapper name or logo.

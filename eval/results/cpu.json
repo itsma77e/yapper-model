@@ -1,0 +1,3513 @@
+{
+ "complete": true,
+ "device": "cpu",
+ "threads": 4,
+ "repetitions": 2,
+ "manifest_sha256": "d2cf106c9b739a14599372822a40bf93b49987225457b0f49c8d357da6d3cdfe",
+ "runtime": {
+  "faster_whisper": "1.2.1",
+  "ctranslate2": "4.8.0"
+ },
+ "models": {
+  "turbo": {
+   "sha256": "e76620f83d5f5b69efd3d87e3dc180c1bd21df9fbebacfd4335e5e1efcc018da",
+   "bytes": 1617884929
+  },
+  "yapper": {
+   "sha256": "6be3a36f73efc15ff89daa3dcf2f4e655938d0f7022ad3e0fd60179b86e2473b",
+   "bytes": 774572399
+  }
+ },
+ "rows": [
+  {
+   "id": "it_it-1870",
+   "language": "it",
+   "duration": 8.4,
+   "reference": "le scene vengono proiettate sulle piramidi e ogni piramide è illuminata",
+   "known": {
+    "turbo": {
+     "text": "Le scene vengono proiettate sulle piramidi e ogni piramide è illuminata.",
+     "detected": "it",
+     "seconds": [
+      8.319903000025079,
+      8.30915749981068
+     ],
+     "word_errors": 0,
+     "words": 11,
+     "char_errors": 0,
+     "chars": 61
+    },
+    "turbo-crop": {
+     "text": "Le scene vengono proiettate sulle piramidi e ogni piramide è illuminata.",
+     "detected": "it",
+     "seconds": [
+      1.9753898999188095,
+      1.957699699793011
+     ],
+     "word_errors": 0,
+     "words": 11,
+     "char_errors": 0,
+     "chars": 61
+    },
+    "yapper": {
+     "text": "Le scene vengono proiettate sulle piramidi e ogni piramide è illuminata.",
+     "detected": "it",
+     "seconds": [
+      1.8845603000372648,
+      1.8741216999478638
+     ],
+     "word_errors": 0,
+     "words": 11,
+     "char_errors": 0,
+     "chars": 61
+    },
+    "yapper-plain": {
+     "text": "Le scene vengono proiettate sulle piramidi e ogni piramide è illuminata.",
+     "detected": "it",
+     "seconds": [
+      7.837545100133866,
+      7.5823602001182735
+     ],
+     "word_errors": 0,
+     "words": 11,
+     "char_errors": 0,
+     "chars": 61
+    }
+   }
+  },
+  {
+   "id": "it_it-1986",
+   "language": "it",
+   "duration": 13.86,
+   "reference": "l'esistenza di un vero e proprio team invisibile larson e lafasto 1989 p109 è inoltre un elemento fondamentale di un team virtuale",
+   "known": {
+    "turbo": {
+     "text": "L'esistenza di un vero e proprio team invisibile, Larson e la Fasto, 1989, pagina 109, è inoltre un elemento fondamentale di un team virtuale.",
+     "detected": "it",
+     "seconds": [
+      8.569765600143,
+      8.652438400080428
+     ],
+     "word_errors": 4,
+     "words": 22,
+     "char_errors": 5,
+     "chars": 108
+    },
+    "turbo-crop": {
+     "text": "L'esistenza di un vero e proprio team invisibile, Larsson nella Fasto, 1989, pagina 109, è inoltre un elemento fondamentale di un team virtuale.",
+     "detected": "it",
+     "seconds": [
+      3.2752078000921756,
+      3.4267911000642926
+     ],
+     "word_errors": 5,
+     "words": 22,
+     "char_errors": 8,
+     "chars": 108
+    },
+    "yapper": {
+     "text": "L'esistenza di un vero e proprio team invisibile, Larson e la Fasto, 1989, pagina 109, è inoltre un elemento fondamentale di un team virtuale.",
+     "detected": "it",
+     "seconds": [
+      3.0868724999018013,
+      3.1702459000516683
+     ],
+     "word_errors": 4,
+     "words": 22,
+     "char_errors": 5,
+     "chars": 108
+    },
+    "yapper-plain": {
+     "text": "L'esistenza di un vero e proprio team invisibile, Larson e la Faston, 1989, pagina 109, è inoltre un elemento fondamentale di un team virtuale.",
+     "detected": "it",
+     "seconds": [
+      8.146556900115684,
+      8.044629499781877
+     ],
+     "word_errors": 4,
+     "words": 22,
+     "char_errors": 6,
+     "chars": 108
+    }
+   }
+  },
+  {
+   "id": "it_it-1821",
+   "language": "it",
+   "duration": 11.22,
+   "reference": "il legame tra la patologia cerebrale e il comportamento è alla base delle ricerche degli scienziati",
+   "known": {
+    "turbo": {
+     "text": "Il legame tra la patologia cerebrale e il comportamento è alla base delle ricerche dagli scienziati.",
+     "detected": "it",
+     "seconds": [
+      8.311367199989036,
+      8.313173100119457
+     ],
+     "word_errors": 1,
+     "words": 16,
+     "char_errors": 1,
+     "chars": 84
+    },
+    "turbo-crop": {
+     "text": "Il legame tra la patologia cerebrale e il comportamento è alla base delle ricerche degli scienziati.",
+     "detected": "it",
+     "seconds": [
+      2.6625750998500735,
+      2.745203899918124
+     ],
+     "word_errors": 0,
+     "words": 16,
+     "char_errors": 0,
+     "chars": 84
+    },
+    "yapper": {
+     "text": "Il legame tra la patologia cerebrale e il comportamento è alla base delle ricerche degli scienziati.",
+     "detected": "it",
+     "seconds": [
+      2.6113434999715537,
+      2.583619700046256
+     ],
+     "word_errors": 0,
+     "words": 16,
+     "char_errors": 0,
+     "chars": 84
+    },
+    "yapper-plain": {
+     "text": "Il legame tra la patologia cerebrale e il comportamento è alla base delle ricerche degli scienziati.",
+     "detected": "it",
+     "seconds": [
+      7.862180099822581,
+      8.048842000076547
+     ],
+     "word_errors": 0,
+     "words": 16,
+     "char_errors": 0,
+     "chars": 84
+    }
+   }
+  },
+  {
+   "id": "it_it-1918",
+   "language": "it",
+   "duration": 15.06,
+   "reference": "le sundarbans sono state dichiarate patrimonio dell'umanità dall'unesco la parte di foresta inclusa nel territorio indiano prende il nome di sundarbans national park",
+   "known": {
+    "turbo": {
+     "text": "Le Sundarbans sono state dichiarate patrimonio dell'umanità dall'UNESCO. La parte di foreste inclusa nel territorio indiano prende il nome di Sundarbans National Park.",
+     "detected": "it",
+     "seconds": [
+      8.711300099967048,
+      8.292243600124493
+     ],
+     "word_errors": 1,
+     "words": 23,
+     "char_errors": 1,
+     "chars": 141
+    },
+    "turbo-crop": {
+     "text": "Le Sundarbans sono state dichiarate patrimonio dell'umanità dall'UNESCO. La parte di foreste inclusa nel territorio indiano prende il nome di Sundarbans National Park.",
+     "detected": "it",
+     "seconds": [
+      4.027378499973565,
+      3.9514492000453174
+     ],
+     "word_errors": 1,
+     "words": 23,
+     "char_errors": 1,
+     "chars": 141
+    },
+    "yapper": {
+     "text": "Le Sundarbans sono state dichiarate patrimonio dell'umanità dall'UNESCO. La parte di foreste inclusa nel territorio indiano prende il nome di Sundarbans National Park.",
+     "detected": "it",
+     "seconds": [
+      3.7714113001711667,
+      3.6477642999961972
+     ],
+     "word_errors": 1,
+     "words": 23,
+     "char_errors": 1,
+     "chars": 141
+    },
+    "yapper-plain": {
+     "text": "Le Sundarbans sono state dichiarate patrimonio dell'umanità dall'UNESCO. La parte di foreste inclusa nel territorio indiano prende il nome di Sundarbans National Park.",
+     "detected": "it",
+     "seconds": [
+      8.103407499846071,
+      8.2665699000936
+     ],
+     "word_errors": 1,
+     "words": 23,
+     "char_errors": 1,
+     "chars": 141
+    }
+   }
+  },
+  {
+   "id": "it_it-1710",
+   "language": "it",
+   "duration": 20.4,
+   "reference": "la settimana scorsa il ministero dell'economia del commercio e dell'industria meti ha annunciato di essere stato informato da apple di altri 34 incidenti legati al surriscaldamento che l'azienda ha definito non gravi",
+   "known": {
+    "turbo": {
+     "text": "La settimana scorsa il Ministero dell'Economia, del Commercio e dell'Industria, METI, ha annunciato di essere stato informato da Apple di altri 34 incidenti legati al surriscaldamento che l'azienda ha definito non gravi.",
+     "detected": "it",
+     "seconds": [
+      8.267009299946949,
+      8.127405900042504
+     ],
+     "word_errors": 0,
+     "words": 32,
+     "char_errors": 0,
+     "chars": 182
+    },
+    "turbo-crop": {
+     "text": "La settimana scorsa il Ministero dell'Economia, del Commercio e dell'Industria, METI, ha annunciato di essere stato informato da Apple di altri 34 incidenti legati al suo riscaldamento che l'azienda ha definito non gravi.",
+     "detected": "it",
+     "seconds": [
+      5.596314399968833,
+      5.47118360013701
+     ],
+     "word_errors": 2,
+     "words": 32,
+     "char_errors": 1,
+     "chars": 182
+    },
+    "yapper": {
+     "text": "La settimana scorsa, il Ministero dell'Economia, del Commercio e dell'Industria, Meti, ha annunciato di essere stato informato da Apple di altri 34 incidenti legati al suo riscaldamento, che l'azienda ha definito non gravi.",
+     "detected": "it",
+     "seconds": [
+      5.16685749986209,
+      5.198374999919906
+     ],
+     "word_errors": 2,
+     "words": 32,
+     "char_errors": 1,
+     "chars": 182
+    },
+    "yapper-plain": {
+     "text": "La settimana scorsa il Ministero dell'Economia, del Commercio e dell'Industria, Meti, ha annunciato di essere stato informato da Apple di altri 34 incidenti legati al suo riscaldamento che l'azienda ha definito non gravi.",
+     "detected": "it",
+     "seconds": [
+      7.783476300071925,
+      7.738775199977681
+     ],
+     "word_errors": 2,
+     "words": 32,
+     "char_errors": 1,
+     "chars": 182
+    }
+   }
+  },
+  {
+   "id": "it_it-1975",
+   "language": "it",
+   "duration": 15.42,
+   "reference": "la popolazione della città del vaticano è costituita da circa 800 abitanti si tratta dello stato indipendente più piccolo al mondo e quello con la minor popolazione",
+   "known": {
+    "turbo": {
+     "text": "La popolazione della città del Vaticano è costituita da circa 800 abitanti. Si tratta dello stato indipendente più piccolo al mondo e quello con la minor popolazione.",
+     "detected": "it",
+     "seconds": [
+      8.03163559990935,
+      8.036012300057337
+     ],
+     "word_errors": 0,
+     "words": 27,
+     "char_errors": 0,
+     "chars": 138
+    },
+    "turbo-crop": {
+     "text": "La popolazione della città del Vaticano è costituita da circa 800 abitanti. Si tratta dello stato indipendente più piccolo al mondo e quello con la minor popolazione. La popolazione della città del Vaticano è costituita da circa 800 abitanti. Si tratta dello stato indipendente più piccolo al mondo e quello con la minor popolazione.",
+     "detected": "it",
+     "seconds": [
+      4.124902399955317,
+      4.292709999950603
+     ],
+     "word_errors": 27,
+     "words": 27,
+     "char_errors": 138,
+     "chars": 138
+    },
+    "yapper": {
+     "text": "La popolazione della città del Vaticano è costituita da circa 800 abitanti. Si tratta dello stato indipendente più piccolo al mondo e quello con la minor popolazione.",
+     "detected": "it",
+     "seconds": [
+      3.449576999992132,
+      3.394469799939543
+     ],
+     "word_errors": 0,
+     "words": 27,
+     "char_errors": 0,
+     "chars": 138
+    },
+    "yapper-plain": {
+     "text": "La popolazione della città del Vaticano è costituita da circa 800 abitanti. Si tratta dello stato indipendente più piccolo al mondo e quello con la minor popolazione.",
+     "detected": "it",
+     "seconds": [
+      7.601871700026095,
+      7.546692699892446
+     ],
+     "word_errors": 0,
+     "words": 27,
+     "char_errors": 0,
+     "chars": 138
+    }
+   }
+  },
+  {
+   "id": "it_it-1921",
+   "language": "it",
+   "duration": 12.48,
+   "reference": "tuttavia ghiaccio e neve sono condizioni normali in molti paesi e il traffico continua a scorrere quasi ininterrottamente per tutto l'anno",
+   "known": {
+    "turbo": {
+     "text": "Tuttavia, ghiaccio e neve sono condizioni normali in molti paesi e il traffico continua a scorrere quasi ininterrottamente per tutto l'anno.",
+     "detected": "it",
+     "seconds": [
+      8.034136699978262,
+      8.018178799888119
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 117
+    },
+    "turbo-crop": {
+     "text": "Tuttavia, ghiaccio e neve sono condizioni normali in molti paesi e il traffico continua a scorrere quasi ininterrottamente per tutto l'anno.",
+     "detected": "it",
+     "seconds": [
+      2.8568667999934405,
+      2.9654564999509603
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 117
+    },
+    "yapper": {
+     "text": "Tuttavia, ghiaccio e neve sono condizioni normali in molti paesi e il traffico continua a scorrere quasi ininterrottamente per tutto l'anno.",
+     "detected": "it",
+     "seconds": [
+      2.680706800194457,
+      2.716676600044593
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 117
+    },
+    "yapper-plain": {
+     "text": "Tuttavia, ghiaccio e neve sono condizioni normali in molti paesi e il traffico continua a scorrere quasi ininterrottamente per tutto l'anno.",
+     "detected": "it",
+     "seconds": [
+      7.702247500186786,
+      7.526536499848589
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 117
+    }
+   }
+  },
+  {
+   "id": "it_it-2007",
+   "language": "it",
+   "duration": 9.12,
+   "reference": "secondo una stima dell'usace 6 pollici di pioggia potrebbero rompere gli argini danneggiati in precedenza",
+   "known": {
+    "turbo": {
+     "text": "Secondo una stima dell'usace, 6 pollici di pioggia potrebbero rompere gli argini danneggiati in precedenza.",
+     "detected": "it",
+     "seconds": [
+      7.944795499788597,
+      7.852420299779624
+     ],
+     "word_errors": 0,
+     "words": 15,
+     "char_errors": 0,
+     "chars": 90
+    },
+    "turbo-crop": {
+     "text": "Secondo una stima dell'usace, 6 pollici di pioggia potrebbero rompere gli argini danneggiati in precedenza.",
+     "detected": "it",
+     "seconds": [
+      2.1098875000607222,
+      2.256590100005269
+     ],
+     "word_errors": 0,
+     "words": 15,
+     "char_errors": 0,
+     "chars": 90
+    },
+    "yapper": {
+     "text": "Secondo una stima dell'Usace, 6 pollici di pioggia potrebbero rompere gli argini danneggiati in precedenza.",
+     "detected": "it",
+     "seconds": [
+      2.0686466998886317,
+      2.083591799950227
+     ],
+     "word_errors": 0,
+     "words": 15,
+     "char_errors": 0,
+     "chars": 90
+    },
+    "yapper-plain": {
+     "text": "Secondo una stima dell'usace, 6 pollici di pioggia potrebbero rompere gli argini danneggiati in precedenza.",
+     "detected": "it",
+     "seconds": [
+      7.342071099905297,
+      7.261963900178671
+     ],
+     "word_errors": 0,
+     "words": 15,
+     "char_errors": 0,
+     "chars": 90
+    }
+   }
+  },
+  {
+   "id": "it_it-1991",
+   "language": "it",
+   "duration": 9.72,
+   "reference": "in questa fase della storia europea la chiesa cattolica divenuta ricca e potente si titrovò ad essere sotto esame",
+   "known": {
+    "turbo": {
+     "text": "In questa fase della storia europea, la Chiesa Cattolica, divenuta ricca e potente, si trovò ad essere sotto esame.",
+     "detected": "it",
+     "seconds": [
+      7.8488825999666005,
+      7.816125700017437
+     ],
+     "word_errors": 1,
+     "words": 19,
+     "char_errors": 2,
+     "chars": 95
+    },
+    "turbo-crop": {
+     "text": "in questa fase della storia europea la chiesa cattolica divenuta ricca e potente si ti trovò ad essere sotto esame",
+     "detected": "it",
+     "seconds": [
+      2.1401665001176298,
+      2.1381971000228077
+     ],
+     "word_errors": 2,
+     "words": 19,
+     "char_errors": 0,
+     "chars": 95
+    },
+    "yapper": {
+     "text": "In questa fase della storia europea, la Chiesa Cattolica, divenuta ricca e potente, si ritrovò ad essere sotto esame.",
+     "detected": "it",
+     "seconds": [
+      2.1295250998809934,
+      2.073785400018096
+     ],
+     "word_errors": 1,
+     "words": 19,
+     "char_errors": 1,
+     "chars": 95
+    },
+    "yapper-plain": {
+     "text": "In questa fase della storia europea, la Chiesa Cattolica, divenuta ricca e potente, si trovò ad essere sotto esame.",
+     "detected": "it",
+     "seconds": [
+      7.365887300111353,
+      7.417202200042084
+     ],
+     "word_errors": 1,
+     "words": 19,
+     "char_errors": 2,
+     "chars": 95
+    }
+   }
+  },
+  {
+   "id": "it_it-1949",
+   "language": "it",
+   "duration": 8.28,
+   "reference": "il termine acaro è usato formalmente dagli entomologi per questo gruppo di insetti",
+   "known": {
+    "turbo": {
+     "text": "Il termine acaro è usato formalmente dagli entomologi per questo gruppo di insetti.",
+     "detected": "it",
+     "seconds": [
+      7.793992700055242,
+      7.610139500116929
+     ],
+     "word_errors": 0,
+     "words": 13,
+     "char_errors": 0,
+     "chars": 70
+    },
+    "turbo-crop": {
+     "text": "Il termine acaro è usato formalmente dagli entomologi per questo gruppo di insetti.",
+     "detected": "it",
+     "seconds": [
+      1.7900616000406444,
+      1.8519951000344008
+     ],
+     "word_errors": 0,
+     "words": 13,
+     "char_errors": 0,
+     "chars": 70
+    },
+    "yapper": {
+     "text": "Il termine acaro è usato formalmente dagli entomologi per questo gruppo di insetti.",
+     "detected": "it",
+     "seconds": [
+      1.733829600038007,
+      1.7813674001954496
+     ],
+     "word_errors": 0,
+     "words": 13,
+     "char_errors": 0,
+     "chars": 70
+    },
+    "yapper-plain": {
+     "text": "Il termine acaro è usato formalmente dagli entomologi per questo gruppo di insetti.",
+     "detected": "it",
+     "seconds": [
+      7.284602700034156,
+      7.184479299932718
+     ],
+     "word_errors": 0,
+     "words": 13,
+     "char_errors": 0,
+     "chars": 70
+    }
+   }
+  },
+  {
+   "id": "it_it-1928",
+   "language": "it",
+   "duration": 10.86,
+   "reference": "nel 1976 il 30% del sito di machu picchu era stato recuperato ma i lavori di restauro sono tutt'ora in corso",
+   "known": {
+    "turbo": {
+     "text": "Nel 1976 il 30% del sito di Machu Picchu era stato ricoperto, ma i lavori di restauro sono tuttora in corso.",
+     "detected": "it",
+     "seconds": [
+      7.762749100103974,
+      8.0301930999849
+     ],
+     "word_errors": 2,
+     "words": 21,
+     "char_errors": 3,
+     "chars": 86
+    },
+    "turbo-crop": {
+     "text": "Nel 1976 il 30% del sito di Machu Picchu era stato ricoperto, ma i lavori di restauro sono tuttora in corso.",
+     "detected": "it",
+     "seconds": [
+      2.3698511000256985,
+      2.345301300054416
+     ],
+     "word_errors": 2,
+     "words": 21,
+     "char_errors": 3,
+     "chars": 86
+    },
+    "yapper": {
+     "text": "Nel 1976 il 30% del sito di Machu Picchu era stato ricoperto, ma i lavori di restauro sono tuttora in corso.",
+     "detected": "it",
+     "seconds": [
+      2.2252342000138015,
+      2.2717290001455694
+     ],
+     "word_errors": 2,
+     "words": 21,
+     "char_errors": 3,
+     "chars": 86
+    },
+    "yapper-plain": {
+     "text": "Nel 1976 il 30% del sito di Machu Picchu era stato ricoperto, ma i lavori di restauro sono tuttora in corso.",
+     "detected": "it",
+     "seconds": [
+      7.315074200043455,
+      7.680722700199112
+     ],
+     "word_errors": 2,
+     "words": 21,
+     "char_errors": 3,
+     "chars": 86
+    }
+   }
+  },
+  {
+   "id": "it_it-1865",
+   "language": "it",
+   "duration": 16.62,
+   "reference": "le crociere a san pietroburgo includono il tempo da dedicare all'esplorazione della città. ai passeggeri delle crociere è concessa l'esenzione dall'obbligo di visto verificare le condizioni",
+   "known": {
+    "turbo": {
+     "text": "Le crociere a San Pietroburgo includono il tempo da dedicare all'esplorazione della città. Ai passeggeri delle crociere è concesse l'esenzione dall'obbligo di visto. Verificare le condizioni.",
+     "detected": "it",
+     "seconds": [
+      8.170413800049573,
+      8.103318499866873
+     ],
+     "word_errors": 1,
+     "words": 26,
+     "char_errors": 1,
+     "chars": 160
+    },
+    "turbo-crop": {
+     "text": "Le crociere a San Pietroburgo includono il tempo da dedicare all'esplorazione della città. Ai passeggeri delle crociere è concesse l'esenzione dall'obbligo di visto. Verificare le condizioni.",
+     "detected": "it",
+     "seconds": [
+      3.949393899878487,
+      4.051869499962777
+     ],
+     "word_errors": 1,
+     "words": 26,
+     "char_errors": 1,
+     "chars": 160
+    },
+    "yapper": {
+     "text": "Le crociere a San Pietroburgo includono il tempo da dedicare all'esplorazione della città. Ai passeggeri delle crociere è concesse l'esenzione dall'obbligo di visto, verificare le condizioni.",
+     "detected": "it",
+     "seconds": [
+      3.8883131998591125,
+      3.7782652999740094
+     ],
+     "word_errors": 1,
+     "words": 26,
+     "char_errors": 1,
+     "chars": 160
+    },
+    "yapper-plain": {
+     "text": "Le crociere a San Pietroburgo includono il tempo da dedicare all'esplorazione della città. Ai passeggeri delle crociere è concesse l'esenzione dall'obbligo di visto, verificare le condizioni.",
+     "detected": "it",
+     "seconds": [
+      7.802035100059584,
+      7.653806499904022
+     ],
+     "word_errors": 1,
+     "words": 26,
+     "char_errors": 1,
+     "chars": 160
+    }
+   }
+  },
+  {
+   "id": "it_it-1963",
+   "language": "it",
+   "duration": 15.84,
+   "reference": "stirare gli abiti umidi può facilitarne l'asciugatura molti hotel offrono l'uso del ferro e dell'asse da stiro anche se non sono presenti in camera",
+   "known": {
+    "turbo": {
+     "text": "Stirare gli abiti umidi può facilitarne l'asciugatura. Molti hotel offrono l'uso del ferro e dell'asse da stiro anche se non sono presenti in camera.",
+     "detected": "it",
+     "seconds": [
+      8.042578399879858,
+      7.903680800227448
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 121
+    },
+    "turbo-crop": {
+     "text": "Stirare gli abiti umidi può facilitarne l'asciugatura. Molti hotel offrono l'uso del ferro e dell'asse da stiro anche se non sono presenti in camera.",
+     "detected": "it",
+     "seconds": [
+      3.6257166999857873,
+      3.587054500123486
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 121
+    },
+    "yapper": {
+     "text": "Stirare gli abiti umidi può facilitarne l'asciugatura. Molti hotel offrono l'uso del ferro e dell'asse da stiro, anche se non sono presenti in camera.",
+     "detected": "it",
+     "seconds": [
+      3.4356484999880195,
+      3.42576240003109
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 121
+    },
+    "yapper-plain": {
+     "text": "Stirare gli abiti umidi può facilitarne l'asciugatura. Molti hotel offrono l'uso del ferro e dell'asse da stiro, anche se non sono presenti in camera.",
+     "detected": "it",
+     "seconds": [
+      7.569893599953502,
+      7.393057300010696
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 121
+    }
+   }
+  },
+  {
+   "id": "it_it-1887",
+   "language": "it",
+   "duration": 9.66,
+   "reference": "mentre prestava servizio all'ospedale nel tempo libero liggins iniziò a studiare i casi di travaglio prematuro",
+   "known": {
+    "turbo": {
+     "text": "Mentre prestava servizio all'ospedale, nel tempo libero l'Igins iniziò a studiare i casi di travaglio prematuro.",
+     "detected": "it",
+     "seconds": [
+      7.80251369997859,
+      7.853494399925694
+     ],
+     "word_errors": 1,
+     "words": 16,
+     "char_errors": 1,
+     "chars": 94
+    },
+    "turbo-crop": {
+     "text": "Mentre prestava servizio all'ospedale, nel tempo libero Leggins iniziò a studiare i casi di travaglio prematuro.",
+     "detected": "it",
+     "seconds": [
+      2.1838283999823034,
+      2.1612694000359625
+     ],
+     "word_errors": 1,
+     "words": 16,
+     "char_errors": 1,
+     "chars": 94
+    },
+    "yapper": {
+     "text": "Mentre prestava servizi all'ospedale, nel tempo libero l'Egents iniziò a studiare i casi di travaglio prematuro.",
+     "detected": "it",
+     "seconds": [
+      2.019000600092113,
+      2.154395899968222
+     ],
+     "word_errors": 2,
+     "words": 16,
+     "char_errors": 5,
+     "chars": 94
+    },
+    "yapper-plain": {
+     "text": "Mentre prestava servizio all'ospedale, nel tempo libero l'Egins iniziò a studiare i casi di travaglio prematuro.",
+     "detected": "it",
+     "seconds": [
+      7.404258499853313,
+      7.842116100015119
+     ],
+     "word_errors": 1,
+     "words": 16,
+     "char_errors": 2,
+     "chars": 94
+    }
+   }
+  },
+  {
+   "id": "it_it-1930",
+   "language": "it",
+   "duration": 7.2,
+   "reference": "sei ostaggi tra cui bambini e anziani sono stati liberati subito insieme ai fotografi filippini",
+   "known": {
+    "turbo": {
+     "text": "Sei ostaggi tra cui bambini e anziani sono stati liberati subito insieme ai fotografi filippini.",
+     "detected": "it",
+     "seconds": [
+      7.716262000147253,
+      7.704738199943677
+     ],
+     "word_errors": 0,
+     "words": 15,
+     "char_errors": 0,
+     "chars": 81
+    },
+    "turbo-crop": {
+     "text": "Sei ostaggi tra cui bambini e anziani sono stati liberati subito insieme ai fotografi filippini.",
+     "detected": "it",
+     "seconds": [
+      1.7132897998671979,
+      1.6961437000427395
+     ],
+     "word_errors": 0,
+     "words": 15,
+     "char_errors": 0,
+     "chars": 81
+    },
+    "yapper": {
+     "text": "Sei ostaggi tra cui bambini e anziani sono stati liberati subito insieme ai fotografi filippini.",
+     "detected": "it",
+     "seconds": [
+      1.581963799893856,
+      1.6345732999034226
+     ],
+     "word_errors": 0,
+     "words": 15,
+     "char_errors": 0,
+     "chars": 81
+    },
+    "yapper-plain": {
+     "text": "Sei ostaggi tra cui bambini e anziani sono stati liberati subito insieme ai fotografi filippini.",
+     "detected": "it",
+     "seconds": [
+      7.2140818000771105,
+      7.322344399988651
+     ],
+     "word_errors": 0,
+     "words": 15,
+     "char_errors": 0,
+     "chars": 81
+    }
+   }
+  },
+  {
+   "id": "it_it-1923",
+   "language": "it",
+   "duration": 19.44,
+   "reference": "la strategia si è rivelata efficace prevedeva l'interruzione di qualsiasi fornitura militare e civile essenziale nonostante questo blocco violasse il diritto internazionale solitamente accolto e codificato da molteplici trattati internazionali degli ultimi due secoli",
+   "known": {
+    "turbo": {
+     "text": "La strategia si è rivelata efficace, prevedeva l'interruzione di qualsiasi fornitura militare civile essenziale, nonostante questo blocco violasse il diritto internazionale solitamente accolto e codificato da molteplici trattati internazionali degli ultimi due secoli.",
+     "detected": "it",
+     "seconds": [
+      8.472269200021401,
+      8.340614499989897
+     ],
+     "word_errors": 1,
+     "words": 34,
+     "char_errors": 1,
+     "chars": 233
+    },
+    "turbo-crop": {
+     "text": "La strategia si è rivelata efficace, prevedeva l'interruzione di qualsiasi fornitura militare civile essenziale, nonostante questo blocco violasse il diritto internazionale solitamente accolto e codificato da molteplici trattati internazionali degli ultimi due secoli.",
+     "detected": "it",
+     "seconds": [
+      6.227115599904209,
+      6.108942300081253
+     ],
+     "word_errors": 1,
+     "words": 34,
+     "char_errors": 1,
+     "chars": 233
+    },
+    "yapper": {
+     "text": "La strategia si è rivelata efficace, prevedeva l'interruzione di qualsiasi fornitura militare civile essenziale, nonostante questo blocco violasse il diritto internazionale solitamente accolto e codificato da molteplici trattati internazionali degli ultimi due secoli.",
+     "detected": "it",
+     "seconds": [
+      4.79873889987357,
+      4.801985799800605
+     ],
+     "word_errors": 1,
+     "words": 34,
+     "char_errors": 1,
+     "chars": 233
+    },
+    "yapper-plain": {
+     "text": "La strategia si è rivelata efficace, prevedeva l'interruzione di qualsiasi fornitura militare civile essenziale, nonostante questo blocco violasse il diritto internazionale solitamente accolto e codificato da molteplici trattati internazionali degli ultimi due secoli.",
+     "detected": "it",
+     "seconds": [
+      8.140737500041723,
+      8.13356320001185
+     ],
+     "word_errors": 1,
+     "words": 34,
+     "char_errors": 1,
+     "chars": 233
+    }
+   }
+  },
+  {
+   "id": "it_it-1867",
+   "language": "it",
+   "duration": 16.98,
+   "reference": "le piante producono l'ossigeno che viene respirato dagli esseri umani e assorbono l'anidride carbonica espulsa dagli stessi attraverso l'espirazione",
+   "known": {
+    "turbo": {
+     "text": "Le piante producono l'ossigeno che viene respirato dagli esseri umani e assorbono l'anidride carbonica espulsa dagli stessi attraverso l'espirazione.",
+     "detected": "it",
+     "seconds": [
+      7.933867400046438,
+      8.067149699898437
+     ],
+     "word_errors": 0,
+     "words": 19,
+     "char_errors": 0,
+     "chars": 127
+    },
+    "turbo-crop": {
+     "text": "Le piante producono l'ossigeno che viene respirato dagli esseri umani e assorbono l'anidride carbonica espulsa dagli stessi attraverso l'espirazione.",
+     "detected": "it",
+     "seconds": [
+      4.017021999927238,
+      3.8872443998698145
+     ],
+     "word_errors": 0,
+     "words": 19,
+     "char_errors": 0,
+     "chars": 127
+    },
+    "yapper": {
+     "text": "Le piante producono l'ossigeno che viene respirato dagli esseri umani e assorbono l'anidride carbonica espulsa dagli stessi, attraverso l'espirazione.",
+     "detected": "it",
+     "seconds": [
+      3.7106922999955714,
+      3.6486508999951184
+     ],
+     "word_errors": 0,
+     "words": 19,
+     "char_errors": 0,
+     "chars": 127
+    },
+    "yapper-plain": {
+     "text": "Le piante producono l'ossigeno che viene respirato dagli esseri umani e assorbono l'anidride carbonica espulsa dagli stessi, attraverso l'espirazione.",
+     "detected": "it",
+     "seconds": [
+      7.657169400015846,
+      7.481580600142479
+     ],
+     "word_errors": 0,
+     "words": 19,
+     "char_errors": 0,
+     "chars": 127
+    }
+   }
+  },
+  {
+   "id": "it_it-1954",
+   "language": "it",
+   "duration": 16.32,
+   "reference": "le ha distinte la difesa disciplinata l'abilità di maneggiare la palla e l'eccellente lavoro di squadra era chiaro che erano loro la squadra da battere",
+   "known": {
+    "turbo": {
+     "text": "Le ha distinte la difesa disciplinata, l'abilità di maneggiare la palla e l'eccellente lavoro di squadra. Era chiaro che erano loro la squadra da battere.",
+     "detected": "it",
+     "seconds": [
+      7.860984300030395,
+      7.878058300120756
+     ],
+     "word_errors": 0,
+     "words": 25,
+     "char_errors": 0,
+     "chars": 125
+    },
+    "turbo-crop": {
+     "text": "Le ha distinte la difesa disciplinata, l'abilità di maneggiare la palla e l'eccellente lavoro di squadra. Era chiaro che erano loro la squadra da battere.",
+     "detected": "it",
+     "seconds": [
+      3.8161351999733597,
+      3.8799246998969465
+     ],
+     "word_errors": 0,
+     "words": 25,
+     "char_errors": 0,
+     "chars": 125
+    },
+    "yapper": {
+     "text": "Le ha distinte la difesa disciplinata, l'abilità di maneggiare la palla e l'eccellente lavoro di squadra. Era chiaro che erano loro la squadra da battere.",
+     "detected": "it",
+     "seconds": [
+      3.701446000020951,
+      3.665341000072658
+     ],
+     "word_errors": 0,
+     "words": 25,
+     "char_errors": 0,
+     "chars": 125
+    },
+    "yapper-plain": {
+     "text": "Le ha distinte la difesa disciplinata, l'abilità di maneggiare la palla e l'eccellente lavoro di squadra. Era chiaro che erano loro la squadra da battere.",
+     "detected": "it",
+     "seconds": [
+      7.578637999948114,
+      7.481156599940732
+     ],
+     "word_errors": 0,
+     "words": 25,
+     "char_errors": 0,
+     "chars": 125
+    }
+   }
+  },
+  {
+   "id": "it_it-1831",
+   "language": "it",
+   "duration": 12.48,
+   "reference": "il parco nazionale dei laghi di plitvice è ricco di boschi in prevalenza di faggi pecci e abeti ed è caratterizzato da un misto di vegetazione alpina e mediterranea",
+   "known": {
+    "turbo": {
+     "text": "Il Parco Nazionale dei Laghi di Plitvice è ricco di boschi in prevalenza di faggi, pecci e abeti ed è caratterizzato da un misto di vegetazione alpina e mediterranea.",
+     "detected": "it",
+     "seconds": [
+      7.925854400033131,
+      8.09536310005933
+     ],
+     "word_errors": 0,
+     "words": 29,
+     "char_errors": 0,
+     "chars": 136
+    },
+    "turbo-crop": {
+     "text": "Il Parco Nazionale dei Laghi di Plitvice è ricco di boschi in prevalenza di faggi, pecci e abeti ed è caratterizzato da un misto di vegetazione alpina e mediterranea. Il Parco Nazionale dei Laghi di Plitvice è ricco di boschi in prevalenza di faggi, pecci e abeti ed è caratterizzato da un misto di vegetazione alpina e mediterranea. Il Parco Nazionale dei Laghi di Plitvice è ricco di boschi in prevalenza di faggi, pecci e abeti ed è caratterizzato da un misto di vegetazione alpina e mediterranea. Il Parco Nazionale dei Laghi di Plitvice è ricco di boschi in prevalenza di faggi, pecci e abeti ed è caratterizzato da un misto di vegetazione alpina e mediterranea.",
+     "detected": "it",
+     "seconds": [
+      5.281010800041258,
+      5.266004400094971
+     ],
+     "word_errors": 87,
+     "words": 29,
+     "char_errors": 408,
+     "chars": 136
+    },
+    "yapper": {
+     "text": "Il Parco Nazionale dei Laghi di Plitvice è ricco di boschi in prevalenza di faggi, pecci e abeti ed è caratterizzato da un misto di vegetazione alpina e mediterranea.",
+     "detected": "it",
+     "seconds": [
+      2.842212799936533,
+      2.877718099858612
+     ],
+     "word_errors": 0,
+     "words": 29,
+     "char_errors": 0,
+     "chars": 136
+    },
+    "yapper-plain": {
+     "text": "Il Parco Nazionale dei Laghi di Plitvice è ricco di boschi in prevalenza di faggi, pecci e abeti ed è caratterizzato da un misto di vegetazione alpina e mediterranea.",
+     "detected": "it",
+     "seconds": [
+      7.573414500104263,
+      7.613963999785483
+     ],
+     "word_errors": 0,
+     "words": 29,
+     "char_errors": 0,
+     "chars": 136
+    }
+   }
+  },
+  {
+   "id": "it_it-1998",
+   "language": "it",
+   "duration": 9.12,
+   "reference": "come il t-rex sono dotati di piedi con squame e artigli depongono le uova e camminano sulle due zampe posteriori",
+   "known": {
+    "turbo": {
+     "text": "Come il T-Rex, sono dotati di piedi con squame e artigli, depongono le uova e camminano sulle due zampe posteriori.",
+     "detected": "it",
+     "seconds": [
+      7.726079499814659,
+      7.695672000059858
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 92
+    },
+    "turbo-crop": {
+     "text": "Come il T-Rex, sono dotati di piedi con squame e artigli, depongono le uova e camminano sulle due zampe posteriori.",
+     "detected": "it",
+     "seconds": [
+      2.5342351000290364,
+      2.552644500043243
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 92
+    },
+    "yapper": {
+     "text": "Come il T-Rex, sono dotati di piedi con squame e artigli, depongono le uova e camminano sulle due zampe posteriori.",
+     "detected": "it",
+     "seconds": [
+      2.112997999880463,
+      2.0965831999201328
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 92
+    },
+    "yapper-plain": {
+     "text": "Come il T-Rex, sono dotati di piedi con squame e artigli, depongono le uova e camminano sulle due zampe posteriori.",
+     "detected": "it",
+     "seconds": [
+      7.317906599957496,
+      7.516703200060874
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 92
+    }
+   }
+  },
+  {
+   "id": "it_it-1901",
+   "language": "it",
+   "duration": 23.34,
+   "reference": "nonostante abbia una forte connotazione fantascientifica l'ia rappresenta una branca dell'informatica molto importante che si occupa di comportamento apprendimento e adattamento intelligente delle macchine",
+   "known": {
+    "turbo": {
+     "text": "Nonostante abbia una forte connotazione fantascientifica, l'IA rappresenta una branca dell'informatica molto importante che si occupa di comportamento, apprendimento e adattamento intelligente delle macchine.",
+     "detected": "it",
+     "seconds": [
+      8.084047100041062,
+      8.112233099993318
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 180
+    },
+    "turbo-crop": {
+     "text": "Nonostante abbia una forte connotazione fantascientifica, l'IA rappresenta una branca dell'informatica molto importante che si occupa di comportamento, apprendimento e adattamento intelligente delle macchine.",
+     "detected": "it",
+     "seconds": [
+      6.2924441001378,
+      6.227611700072885
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 180
+    },
+    "yapper": {
+     "text": "Nonostante abbia una forte connotazione fantascientifica, l'IA rappresenta una branca dell'informatica molto importante che si occupa di comportamento, apprendimento e adattamento intelligente delle macchine.",
+     "detected": "it",
+     "seconds": [
+      5.954381800023839,
+      5.856319800019264
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 180
+    },
+    "yapper-plain": {
+     "text": "Nonostante abbia una forte connotazione fantascientifica, l'IA rappresenta una branca dell'informatica molto importante che si occupa di comportamento, apprendimento e adattamento intelligente delle macchine.",
+     "detected": "it",
+     "seconds": [
+      8.437221699859947,
+      7.544474299997091
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 180
+    }
+   }
+  },
+  {
+   "id": "it_it-1665",
+   "language": "it",
+   "duration": 27.84,
+   "reference": "secondo quanto trapelato oggetto del documento sarà la disputa sui confini che la palestina vuole siano basati sui confini esistenti prima della guerra del medio oriente del 1967",
+   "known": {
+    "turbo": {
+     "text": "secondo quanto trapelato oggetto del documento sarà la disputa sui confini che la palestina vuole siano basati sui confini esistenti prima della guerra del medio oriente del 1967 Grazie a tutti.",
+     "detected": "it",
+     "seconds": [
+      15.362186100101098,
+      15.364683500025421
+     ],
+     "word_errors": 3,
+     "words": 28,
+     "char_errors": 12,
+     "chars": 151
+    },
+    "turbo-crop": {
+     "text": "Secondo quanto trapelato, oggetto del documento sarà la disputa sui confini che la Palestina vuole siano basati sui confini esistenti prima della guerra del Medio Oriente del 1967.",
+     "detected": "it",
+     "seconds": [
+      7.658611099934205,
+      7.60699350014329
+     ],
+     "word_errors": 0,
+     "words": 28,
+     "char_errors": 0,
+     "chars": 151
+    },
+    "yapper": {
+     "text": "Secondo quanto trapelato, oggetto del documento sarà la disputa sui confini che la Palestina vuole siano basati sui confini esistenti prima della guerra del Medio Oriente del 1967.",
+     "detected": "it",
+     "seconds": [
+      7.249563799938187,
+      7.172612600028515
+     ],
+     "word_errors": 0,
+     "words": 28,
+     "char_errors": 0,
+     "chars": 151
+    },
+    "yapper-plain": {
+     "text": "Secondo quanto trapelato, oggetto del documento sarà la disputa sui confini che la Palestina vuole siano basati sui confini esistenti prima della guerra del Medio Oriente del 1967.",
+     "detected": "it",
+     "seconds": [
+      7.653741399990395,
+      7.585166299948469
+     ],
+     "word_errors": 0,
+     "words": 28,
+     "char_errors": 0,
+     "chars": 151
+    }
+   }
+  },
+  {
+   "id": "it_it-1889",
+   "language": "it",
+   "duration": 13.92,
+   "reference": "grazie alla sua invenzione hanno fatto la loro comparsa il treno l'automobile e diversi altri mezzi di trasporto",
+   "known": {
+    "turbo": {
+     "text": "Grazie alla sua invenzione hanno fatto la loro comparsa il treno, l'automobile e diversi altri mezzi di trasporto.",
+     "detected": "it",
+     "seconds": [
+      7.629764599958435,
+      7.729265599977225
+     ],
+     "word_errors": 0,
+     "words": 18,
+     "char_errors": 0,
+     "chars": 94
+    },
+    "turbo-crop": {
+     "text": "Grazie alla sua invenzione hanno fatto la loro comparsa il treno, l'automobile e diversi altri mezzi di trasporto.",
+     "detected": "it",
+     "seconds": [
+      2.9733170999679714,
+      2.97349560004659
+     ],
+     "word_errors": 0,
+     "words": 18,
+     "char_errors": 0,
+     "chars": 94
+    },
+    "yapper": {
+     "text": "Grazie alla sua invenzione hanno fatto la loro comparsa il treno, l'automobile e diversi altri mezzi di trasporto.",
+     "detected": "it",
+     "seconds": [
+      2.84518239996396,
+      2.7964270999655128
+     ],
+     "word_errors": 0,
+     "words": 18,
+     "char_errors": 0,
+     "chars": 94
+    },
+    "yapper-plain": {
+     "text": "Grazie alla sua invenzione hanno fatto la loro comparsa il treno, l'automobile e diversi altri mezzi di trasporto.",
+     "detected": "it",
+     "seconds": [
+      7.319675300037488,
+      7.361270199995488
+     ],
+     "word_errors": 0,
+     "words": 18,
+     "char_errors": 0,
+     "chars": 94
+    }
+   }
+  },
+  {
+   "id": "it_it-1758",
+   "language": "it",
+   "duration": 12.12,
+   "reference": "l'arcipelago è a 120 km a nord della penisola l'isola king george è la più estesa ed è sede della cittadina di villa las estrellas",
+   "known": {
+    "turbo": {
+     "text": "L'arcipelago è a 120 km a nord della penisola. L'isola King George è la più estesa ed è sede della cittadina di Villa Las Estrellas.",
+     "detected": "it",
+     "seconds": [
+      8.010913499863818,
+      7.951205599820241
+     ],
+     "word_errors": 0,
+     "words": 25,
+     "char_errors": 0,
+     "chars": 104
+    },
+    "turbo-crop": {
+     "text": "L'arcipelago è a 120 km a nord della penisola. L'isola King George è la più estesa e da sede della cittadina di Villa Las Estrellas.",
+     "detected": "it",
+     "seconds": [
+      2.930183299817145,
+      2.870092299999669
+     ],
+     "word_errors": 2,
+     "words": 25,
+     "char_errors": 1,
+     "chars": 104
+    },
+    "yapper": {
+     "text": "L'Arcipelago è a 120 km a nord della penisola. L'isola King George è la più estesa ed è sede della cittadina di Villa Las Estrellas.",
+     "detected": "it",
+     "seconds": [
+      2.753525200067088,
+      2.6936005000025034
+     ],
+     "word_errors": 0,
+     "words": 25,
+     "char_errors": 0,
+     "chars": 104
+    },
+    "yapper-plain": {
+     "text": "L'arcipelago è a 120 km a nord della penisola. L'isola King George è la più estesa ed è sede della cittadina di Villa Las Estrellas.",
+     "detected": "it",
+     "seconds": [
+      7.4264818001538515,
+      7.626788299996406
+     ],
+     "word_errors": 0,
+     "words": 25,
+     "char_errors": 0,
+     "chars": 104
+    }
+   }
+  },
+  {
+   "id": "it_it-2008",
+   "language": "it",
+   "duration": 19.02,
+   "reference": "gli altri argomenti in calendario a bali includono il salvataggio delle ultime foreste superstiti nel mondo e la condivisione di tecnologie per supportare la crescita delle nazioni in via di sviluppo secondo modelli meno inquinanti",
+   "known": {
+    "turbo": {
+     "text": "Gli altri argomenti in calendario Bali includono il salvataggio delle ultime foreste, superstiti nel mondo e la condivisione di tecnologie per supportare la crescita delle nazioni in via di sviluppo, secondo modelli meno inquinanti.",
+     "detected": "it",
+     "seconds": [
+      8.020579600008205,
+      7.882139900000766
+     ],
+     "word_errors": 1,
+     "words": 35,
+     "char_errors": 1,
+     "chars": 197
+    },
+    "turbo-crop": {
+     "text": "Gli altri argomenti in calendario Bali includono il salvataggio delle ultime foreste, supersiti nel mondo e la condivisione di tecnologie per supportare la crescita delle nazioni in via di sviluppo, secondo modelli meno inquinanti.",
+     "detected": "it",
+     "seconds": [
+      4.683259000070393,
+      4.819326599827036
+     ],
+     "word_errors": 2,
+     "words": 35,
+     "char_errors": 2,
+     "chars": 197
+    },
+    "yapper": {
+     "text": "Gli altri argomenti in calendario a Bali includono il salvataggio delle ultime foreste, superstiti nel mondo e la condivisione di tecnologie per supportare la crescita delle nazioni in via di sviluppo, secondo modelli meno inquinanti.",
+     "detected": "it",
+     "seconds": [
+      4.4922976000234485,
+      4.534464300144464
+     ],
+     "word_errors": 0,
+     "words": 35,
+     "char_errors": 0,
+     "chars": 197
+    },
+    "yapper-plain": {
+     "text": "Gli altri argomenti in calendario a Bali includono il salvataggio delle ultime foreste, superstiti nel mondo e la condivisione di tecnologie per supportare la crescita delle nazioni in via di sviluppo, secondo modelli meno inquinanti.",
+     "detected": "it",
+     "seconds": [
+      7.698086300166324,
+      7.938449799781665
+     ],
+     "word_errors": 0,
+     "words": 35,
+     "char_errors": 0,
+     "chars": 197
+    }
+   }
+  },
+  {
+   "id": "it_it-1920",
+   "language": "it",
+   "duration": 13.32,
+   "reference": "di solito offrono cibo bevande e intrattenimenti esclusivi per tenere alto l'umore degli ospiti fare in modo che si trattengano",
+   "known": {
+    "turbo": {
+     "text": "Di solito offrono cibo, bevande e intrattenimenti esclusivi per tenere alto l'umore degli ospiti, fare in modo che si trattengano.",
+     "detected": "it",
+     "seconds": [
+      7.7960513001307845,
+      7.719953199848533
+     ],
+     "word_errors": 0,
+     "words": 20,
+     "char_errors": 0,
+     "chars": 107
+    },
+    "turbo-crop": {
+     "text": "Di solito offrono cibo, bevande e intrattenimenti esclusivi per tenere alto l'umore degli ospiti, fare in modo che si trattengano.",
+     "detected": "it",
+     "seconds": [
+      3.071053500054404,
+      3.0645194000098854
+     ],
+     "word_errors": 0,
+     "words": 20,
+     "char_errors": 0,
+     "chars": 107
+    },
+    "yapper": {
+     "text": "Di solito offrono cibo, bevande e intrattenimenti esclusivi per tenere alto l'umore degli ospiti, fare in modo che si trattengano.",
+     "detected": "it",
+     "seconds": [
+      3.0852355000097305,
+      2.885888900142163
+     ],
+     "word_errors": 0,
+     "words": 20,
+     "char_errors": 0,
+     "chars": 107
+    },
+    "yapper-plain": {
+     "text": "Di solito offrono cibo, bevande e intrattenimenti esclusivi per tenere alto l'umore degli ospiti, fare in modo che si trattengano.",
+     "detected": "it",
+     "seconds": [
+      7.472437500022352,
+      7.368072600103915
+     ],
+     "word_errors": 0,
+     "words": 20,
+     "char_errors": 0,
+     "chars": 107
+    }
+   }
+  },
+  {
+   "id": "it_it-1924",
+   "language": "it",
+   "duration": 18.0,
+   "reference": "quattro sciatrici del gruppo femminile non sono riuscite a terminare le loro discese e 45 delle 117 partecipanti allo slalom gigante non si sono classificate nella gara",
+   "known": {
+    "turbo": {
+     "text": "Quattro sciatrici del gruppo femminile non sono riuscite a terminare le loro discese e 45 delle 117 partecipanti allo slalom gigante non si sono classificate nella gara.",
+     "detected": "it",
+     "seconds": [
+      7.808240200160071,
+      7.754837099928409
+     ],
+     "word_errors": 0,
+     "words": 27,
+     "char_errors": 0,
+     "chars": 142
+    },
+    "turbo-crop": {
+     "text": "Quattro sciatrici del gruppo femminile non sono riuscite a terminare le loro discese e 45 delle 117 partecipanti allo slalom gigante non si sono classificate nella gara.",
+     "detected": "it",
+     "seconds": [
+      4.057177200214937,
+      4.1387866998557
+     ],
+     "word_errors": 0,
+     "words": 27,
+     "char_errors": 0,
+     "chars": 142
+    },
+    "yapper": {
+     "text": "Quattro scettrici del gruppo femminile non sono riuscite a terminare le loro discese e 45 delle 117 partecipanti allo slalom gigante non si sono classificate nella gara.",
+     "detected": "it",
+     "seconds": [
+      3.96138730016537,
+      3.902861700160429
+     ],
+     "word_errors": 1,
+     "words": 27,
+     "char_errors": 2,
+     "chars": 142
+    },
+    "yapper-plain": {
+     "text": "Quattro scettrici del gruppo femminile non sono riuscite a terminare le loro discese e 45 delle 117 partecipanti allo slalom gigante non si sono classificate nella gara.",
+     "detected": "it",
+     "seconds": [
+      7.470608899835497,
+      7.586197399999946
+     ],
+     "word_errors": 1,
+     "words": 27,
+     "char_errors": 2,
+     "chars": 142
+    }
+   }
+  },
+  {
+   "id": "it_it-1872",
+   "language": "it",
+   "duration": 18.66,
+   "reference": "nel corso della lotta per l'indipendenza organizzata dal movimento mau un raduno pacifico nella città ha portato all'uccisione di tupua tamasese lealofi iii il capo supremo",
+   "known": {
+    "turbo": {
+     "text": "Nel corso della lotta per l'indipendenza organizzata dal movimento Mao, un raduno specifico nella città, un raduno pacifico nella città ha portato all'uccisione di Tupua Tamazese Lealofi III, il capo supremo.",
+     "detected": "it",
+     "seconds": [
+      8.097516400041059,
+      8.017505099996924
+     ],
+     "word_errors": 7,
+     "words": 26,
+     "char_errors": 28,
+     "chars": 145
+    },
+    "turbo-crop": {
+     "text": "Nel corso della lotta per l'indipendenza organizzata dal movimento Mao, un raduno specifico nella città, un raduno pacifico nella città ha portato all'uccisione di Tupua Tamazese Lealofi III, il capo supremo.",
+     "detected": "it",
+     "seconds": [
+      4.519414500100538,
+      4.4245124000590295
+     ],
+     "word_errors": 7,
+     "words": 26,
+     "char_errors": 28,
+     "chars": 145
+    },
+    "yapper": {
+     "text": "Nel corso della lotta per l'indipendenza organizzata dal movimento Mao, un raduno specifico nella città, un raduno pacifico nella città ha portato all'uccisione di Tupua Tamazese Lealofi III, il capo supremo.",
+     "detected": "it",
+     "seconds": [
+      4.324463999830186,
+      4.259837900055572
+     ],
+     "word_errors": 7,
+     "words": 26,
+     "char_errors": 28,
+     "chars": 145
+    },
+    "yapper-plain": {
+     "text": "Nel corso della lotta per l'indipendenza organizzata dal movimento Mao, un raduno specifico nella città ha portato all'uccisione di Tupua Tamazese Lealofi III, il capo supremo.",
+     "detected": "it",
+     "seconds": [
+      7.499727800022811,
+      7.467560300137848
+     ],
+     "word_errors": 3,
+     "words": 26,
+     "char_errors": 4,
+     "chars": 145
+    }
+   }
+  },
+  {
+   "id": "it_it-1808",
+   "language": "it",
+   "duration": 15.3,
+   "reference": "trascorsi due anni dalla fine della guerra gli alleati di un tempo erano diventati nemici ebbe così inizio la guerra fredda",
+   "known": {
+    "turbo": {
+     "text": "Trascorsi due anni dalla fine della guerra, gli alleati di un tempo erano diventati nemici. Ebbe così inizio la guerra fredda.",
+     "detected": "it",
+     "seconds": [
+      7.757745699957013,
+      7.757861600024626
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 103
+    },
+    "turbo-crop": {
+     "text": "Trascorsi due anni dalla fine della guerra, gli alleati di un tempo erano diventati nemici. Ebbe così inizio la guerra fredda.",
+     "detected": "it",
+     "seconds": [
+      3.544960099970922,
+      3.652409000089392
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 103
+    },
+    "yapper": {
+     "text": "Trascorsi due anni dalla fine della guerra, gli alleati di un tempo erano diventati nemici. Ebbe così inizio la guerra fredda.",
+     "detected": "it",
+     "seconds": [
+      3.310641899937764,
+      3.3459534000139683
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 103
+    },
+    "yapper-plain": {
+     "text": "Trascorsi due anni dalla fine della guerra, gli alleati di un tempo erano diventati nemici. Ebbe così inizio la guerra fredda.",
+     "detected": "it",
+     "seconds": [
+      7.198857999872416,
+      7.2297213999554515
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 103
+    }
+   }
+  },
+  {
+   "id": "it_it-1898",
+   "language": "it",
+   "duration": 15.96,
+   "reference": "\"in sostanza [wales] ci ha mentito sin dall'inizio. innanzitutto comportandosi come se fosse per motivi legali. in secondo luogo fingendo di darci ascolto fino al momento della effettiva cancellazione delle opere da parte sua",
+   "known": {
+    "turbo": {
+     "text": "In sostanza, Wales ci ha mentito sin dall'inizio, innanzitutto comportandosi come se fosse per motivi legali, in secondo luogo fingendo di darci ascolto fino al momento della effettiva cancellazione delle opere da parte sua.",
+     "detected": "it",
+     "seconds": [
+      8.013202599948272,
+      7.95705180009827
+     ],
+     "word_errors": 0,
+     "words": 34,
+     "char_errors": 0,
+     "chars": 186
+    },
+    "turbo-crop": {
+     "text": "In sostanza Wales ci ha mentito sin dall'inizio, innanzitutto comportandosi come se fosse per motivi legali, in secondo luogo fingendo di darci ascolto fino al momento della effettiva cancellazione delle opere da parte sua.",
+     "detected": "it",
+     "seconds": [
+      3.5763866000343114,
+      3.623682799981907
+     ],
+     "word_errors": 0,
+     "words": 34,
+     "char_errors": 0,
+     "chars": 186
+    },
+    "yapper": {
+     "text": "In sostanza, Wales ci ha mentito sin dall'inizio, innanzitutto comportandosi come se fosse per motivi legali, in secondo luogo fingendo di darci ascolto fino al momento della effettiva cancellazione delle opere da parte sua.",
+     "detected": "it",
+     "seconds": [
+      3.4787679000291973,
+      3.567516699898988
+     ],
+     "word_errors": 0,
+     "words": 34,
+     "char_errors": 0,
+     "chars": 186
+    },
+    "yapper-plain": {
+     "text": "In sostanza, Wales ci ha mentito sin dall'inizio, innanzitutto comportandosi come se fosse per motivi legali, in secondo luogo fingendo di darci ascolto fino al momento della effettiva cancellazione delle opere da parte sua.",
+     "detected": "it",
+     "seconds": [
+      7.496829400071874,
+      7.555019399849698
+     ],
+     "word_errors": 0,
+     "words": 34,
+     "char_errors": 0,
+     "chars": 186
+    }
+   }
+  },
+  {
+   "id": "en_us-1800",
+   "language": "en",
+   "duration": 8.28,
+   "reference": "the bridge is scheduled to be fully operational in september 2017 when the brazilian customs checkpoints are expected to be finished",
+   "known": {
+    "turbo": {
+     "text": "The bridge is scheduled to be fully operational in September 2017 when the Brazilian custom checkpoints are expected to be finished.",
+     "detected": "en",
+     "seconds": [
+      7.49741439986974,
+      7.493782900040969
+     ],
+     "word_errors": 1,
+     "words": 21,
+     "char_errors": 1,
+     "chars": 112
+    },
+    "turbo-crop": {
+     "text": "The bridge is scheduled to be fully operational in September 2017 when the Brazilian custom checkpoints are expected to be finished.",
+     "detected": "en",
+     "seconds": [
+      1.835620400030166,
+      1.8358755998779088
+     ],
+     "word_errors": 1,
+     "words": 21,
+     "char_errors": 1,
+     "chars": 112
+    },
+    "yapper": {
+     "text": "The bridge is scheduled to be fully operational in September 2017 when the Brazilian custom checkpoints are expected to be finished.",
+     "detected": "en",
+     "seconds": [
+      1.7025707000866532,
+      1.7242122001480311
+     ],
+     "word_errors": 1,
+     "words": 21,
+     "char_errors": 1,
+     "chars": 112
+    },
+    "yapper-plain": {
+     "text": "The bridge is scheduled to be fully operational in September 2017 when the Brazilian custom checkpoints are expected to be finished.",
+     "detected": "en",
+     "seconds": [
+      7.148133399896324,
+      7.227600800106302
+     ],
+     "word_errors": 1,
+     "words": 21,
+     "char_errors": 1,
+     "chars": 112
+    }
+   }
+  },
+  {
+   "id": "en_us-1665",
+   "language": "en",
+   "duration": 8.28,
+   "reference": "the document according to the leak will refer to the borders dispute which palestine wants based on the borders before the 1967 mideast war",
+   "known": {
+    "turbo": {
+     "text": "The document, according to the leak, will refer to the borders dispute, which Palestine wants based on the borders before the 1967 Mid-East War.",
+     "detected": "en",
+     "seconds": [
+      7.594355799956247,
+      7.607242099940777
+     ],
+     "word_errors": 2,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 116
+    },
+    "turbo-crop": {
+     "text": "A document, according to the leak, will refer to the borders dispute, which Palestine wants based on the borders before the 1967 Mideast War.",
+     "detected": "en",
+     "seconds": [
+      1.888816799968481,
+      1.8835931001231074
+     ],
+     "word_errors": 1,
+     "words": 24,
+     "char_errors": 3,
+     "chars": 116
+    },
+    "yapper": {
+     "text": "The document, according to the leak, will refer to the borders dispute, which Palestine wants based on the borders before the 1967-Mideast War.",
+     "detected": "en",
+     "seconds": [
+      1.8317259999457747,
+      1.8554909999947995
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 116
+    },
+    "yapper-plain": {
+     "text": "The document, according to the leak, will refer to the borders dispute, which Palestine wants based on the borders before the 1967 Mid-East War.",
+     "detected": "en",
+     "seconds": [
+      7.193892600014806,
+      7.278822400141507
+     ],
+     "word_errors": 2,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 116
+    }
+   }
+  },
+  {
+   "id": "en_us-1923",
+   "language": "en",
+   "duration": 15.36,
+   "reference": "the strategy proved effective cutting off vital military and civilian supplies although this blockade violated generally accepted international law codified by several international agreements of the past two centuries",
+   "known": {
+    "turbo": {
+     "text": "The strategy proved effective cutting off vital military and civilian supplies, although this blockade violated generally accepted international law codified by several international agreements of the past two centuries.",
+     "detected": "en",
+     "seconds": [
+      7.7177528000902385,
+      7.665803199866787
+     ],
+     "word_errors": 0,
+     "words": 29,
+     "char_errors": 0,
+     "chars": 190
+    },
+    "turbo-crop": {
+     "text": "The strategy proved effective cutting off vital military and civilian supplies, although this blockade violated generally accepted international law codified by several international agreements of the past two centuries.",
+     "detected": "en",
+     "seconds": [
+      3.435069200117141,
+      3.4566822999622673
+     ],
+     "word_errors": 0,
+     "words": 29,
+     "char_errors": 0,
+     "chars": 190
+    },
+    "yapper": {
+     "text": "The strategy proved effective cutting off vital military and civilian supplies, although this blockade violated generally accepted international law codified by several international agreements of the past two centuries.",
+     "detected": "en",
+     "seconds": [
+      3.2515603001229465,
+      3.2882576999254525
+     ],
+     "word_errors": 0,
+     "words": 29,
+     "char_errors": 0,
+     "chars": 190
+    },
+    "yapper-plain": {
+     "text": "The strategy proved effective cutting off vital military and civilian supplies, although this blockade violated generally accepted international law codified by several international agreements of the past two centuries.",
+     "detected": "en",
+     "seconds": [
+      7.264368099858984,
+      7.226608500117436
+     ],
+     "word_errors": 0,
+     "words": 29,
+     "char_errors": 0,
+     "chars": 190
+    }
+   }
+  },
+  {
+   "id": "en_us-1872",
+   "language": "en",
+   "duration": 12.12,
+   "reference": "during the struggle for independence organised by the mau movement a peaceful gathering in the town resulted in the killing of the paramount chief tupua tamasese lealofi iii",
+   "known": {
+    "turbo": {
+     "text": "During the struggle for independence organized by the Mao Movement, a peaceful gathering in the town resulted in the killing of the paramount chief, Tupua Tamasese Leolofi III.",
+     "detected": "en",
+     "seconds": [
+      8.130984299816191,
+      7.744118500035256
+     ],
+     "word_errors": 3,
+     "words": 28,
+     "char_errors": 3,
+     "chars": 146
+    },
+    "turbo-crop": {
+     "text": "During the struggle for independence organized by the Mao Movement, a peaceful gathering in the town resulted in the killing of the paramount chief, Tupua Tamasese Leolofi III.",
+     "detected": "en",
+     "seconds": [
+      2.767651699949056,
+      2.823977299965918
+     ],
+     "word_errors": 3,
+     "words": 28,
+     "char_errors": 3,
+     "chars": 146
+    },
+    "yapper": {
+     "text": "During the struggle for independence organized by the Mao movement, a peaceful gathering in the town resulted in the killing of the Paramount chief, Tupua Tamasese Leolofi III.",
+     "detected": "en",
+     "seconds": [
+      2.660867099883035,
+      2.6594100000802428
+     ],
+     "word_errors": 3,
+     "words": 28,
+     "char_errors": 3,
+     "chars": 146
+    },
+    "yapper-plain": {
+     "text": "During the struggle for independence, organized by the Mao movement, a peaceful gathering in the town resulted in the killing of the Paramount chief, Tupua Tamasese Leolofi III.",
+     "detected": "en",
+     "seconds": [
+      7.495296400040388,
+      7.37606170005165
+     ],
+     "word_errors": 3,
+     "words": 28,
+     "char_errors": 3,
+     "chars": 146
+    }
+   }
+  },
+  {
+   "id": "en_us-1812",
+   "language": "en",
+   "duration": 12.0,
+   "reference": "while one experimental vaccine appears able to reduce ebola mortality up until now no drugs have been clearly demonstrated suitable for treating existing infection",
+   "known": {
+    "turbo": {
+     "text": "While one experimental vaccine appears to be able to reduce Ebola mortality, up until now no drugs have been clearly demonstrated suitable for treating existing infection.",
+     "detected": "en",
+     "seconds": [
+      7.6255420001689345,
+      7.723053500056267
+     ],
+     "word_errors": 2,
+     "words": 24,
+     "char_errors": 4,
+     "chars": 140
+    },
+    "turbo-crop": {
+     "text": "While one experimental vaccine appears to be able to reduce Ebola mortality, up until now, no drugs have been clearly demonstrated suitable for treating existing infection.",
+     "detected": "en",
+     "seconds": [
+      2.480315199820325,
+      2.5136907999403775
+     ],
+     "word_errors": 2,
+     "words": 24,
+     "char_errors": 4,
+     "chars": 140
+    },
+    "yapper": {
+     "text": "While one experimental vaccine appears to able to reduce Ebola mortality, up until now, no drugs have been clearly demonstrated suitable for treating existing infection.",
+     "detected": "en",
+     "seconds": [
+      2.2913446999154985,
+      2.386675499845296
+     ],
+     "word_errors": 1,
+     "words": 24,
+     "char_errors": 2,
+     "chars": 140
+    },
+    "yapper-plain": {
+     "text": "While one experimental vaccine appears to be able to reduce Ebola mortality, up until now no drugs have been clearly demonstrated suitable for treating existing infection.",
+     "detected": "en",
+     "seconds": [
+      7.20524420007132,
+      7.159782600123435
+     ],
+     "word_errors": 2,
+     "words": 24,
+     "char_errors": 4,
+     "chars": 140
+    }
+   }
+  },
+  {
+   "id": "en_us-1918",
+   "language": "en",
+   "duration": 11.88,
+   "reference": "the sundarbans has been declared a unesco world heritage site the part of the forest within indian territory is called sundarbans national park",
+   "known": {
+    "turbo": {
+     "text": "The Sundarbans has been declared a UNESCO World Heritage Site. The part of the forest within Indian Territory is called Sundarbans National Park.",
+     "detected": "en",
+     "seconds": [
+      7.677690800046548,
+      7.6598717998713255
+     ],
+     "word_errors": 0,
+     "words": 23,
+     "char_errors": 0,
+     "chars": 121
+    },
+    "turbo-crop": {
+     "text": "The Sundarbans has been declared a UNESCO World Heritage Site. The part of the forest within Indian Territory is called Sundarbans National Park.",
+     "detected": "en",
+     "seconds": [
+      2.4681331999599934,
+      2.519778799964115
+     ],
+     "word_errors": 0,
+     "words": 23,
+     "char_errors": 0,
+     "chars": 121
+    },
+    "yapper": {
+     "text": "The Sundarbans has been declared a UNESCO World Heritage Site. The part of the forest within Indian territory is called Sundarbans National Park.",
+     "detected": "en",
+     "seconds": [
+      2.3797486000694335,
+      2.3102223998866975
+     ],
+     "word_errors": 0,
+     "words": 23,
+     "char_errors": 0,
+     "chars": 121
+    },
+    "yapper-plain": {
+     "text": "The Sundarbans has been declared a UNESCO World Heritage Site. The part of the forest within Indian Territory is called Sundarbans National Park.",
+     "detected": "en",
+     "seconds": [
+      7.204001900041476,
+      7.285475499927998
+     ],
+     "word_errors": 0,
+     "words": 23,
+     "char_errors": 0,
+     "chars": 121
+    }
+   }
+  },
+  {
+   "id": "en_us-1735",
+   "language": "en",
+   "duration": 20.4,
+   "reference": "researchers from princeton university in the united states and uppsala university in sweden reported the new species evolved in just two generations though this process had been believed to take much longer due to breeding between an endemic darwin finch geospiza fortes and the immigrant cactus finch geospiza conirostris",
+   "known": {
+    "turbo": {
+     "text": "Researchers from Princeton University in the United States and Uppsala University in Sweden reported the new species evolved in just two generations, though this process has believed to take much longer due to the breeding between an endemic Darwin finch, Giospisa fortis, and the immigrant cactus finch, Giospisa conirostris.",
+     "detected": "en",
+     "seconds": [
+      8.403659200062975,
+      7.974527999991551
+     ],
+     "word_errors": 6,
+     "words": 49,
+     "char_errors": 13,
+     "chars": 274
+    },
+    "turbo-crop": {
+     "text": "Researchers from Princeton University in the United States and Uppsala University in Sweden reported the new species evolved in just two generations, though this process has believed to take much longer due to the breeding between an endemic Darwin finch, Giospiza fortis, and the immigrant cactus finch, Giospiza conirostris.",
+     "detected": "en",
+     "seconds": [
+      5.406436100136489,
+      5.300199799938127
+     ],
+     "word_errors": 6,
+     "words": 49,
+     "char_errors": 11,
+     "chars": 274
+    },
+    "yapper": {
+     "text": "Researchers from Princeton University in the United States and Uppsala University in Sweden reported the new species evolved in just two generations, though this process has to believe to take much longer due to the breeding between an endemic Darwin finch, Giospisa fortis, and the immigrant cactus finch, Giospisa conirostris.",
+     "detected": "en",
+     "seconds": [
+      5.115009800065309,
+      5.07962129986845
+     ],
+     "word_errors": 7,
+     "words": 49,
+     "char_errors": 14,
+     "chars": 274
+    },
+    "yapper-plain": {
+     "text": "Researchers from Princeton University in the United States and Uppsala University in Sweden reported the new species evolved in just two generations, though this process has to believe to take much longer due to the breeding between an endemic Darwin finch, Giospisa fortis, and the immigrant cactus finch, Giospisa cornirostris.",
+     "detected": "en",
+     "seconds": [
+      7.830142599996179,
+      7.800965899834409
+     ],
+     "word_errors": 8,
+     "words": 49,
+     "char_errors": 15,
+     "chars": 274
+    }
+   }
+  },
+  {
+   "id": "en_us-1821",
+   "language": "en",
+   "duration": 6.36,
+   "reference": "the correlation between brain pathology and behaviour supports scientists in their research",
+   "known": {
+    "turbo": {
+     "text": "The correlation between brain pathology and behavior supports scientists in their research.",
+     "detected": "en",
+     "seconds": [
+      7.6066606000531465,
+      7.448964500101283
+     ],
+     "word_errors": 1,
+     "words": 12,
+     "char_errors": 1,
+     "chars": 80
+    },
+    "turbo-crop": {
+     "text": "The correlation between brain pathology and behavior supports scientists in their research.",
+     "detected": "en",
+     "seconds": [
+      1.4815609001088887,
+      1.557222800096497
+     ],
+     "word_errors": 1,
+     "words": 12,
+     "char_errors": 1,
+     "chars": 80
+    },
+    "yapper": {
+     "text": "The correlation between brain pathology and behavior supports scientists in their research.",
+     "detected": "en",
+     "seconds": [
+      1.321989000076428,
+      1.266687999945134
+     ],
+     "word_errors": 1,
+     "words": 12,
+     "char_errors": 1,
+     "chars": 80
+    },
+    "yapper-plain": {
+     "text": "The correlation between brain pathology and behavior supports scientists in their research.",
+     "detected": "en",
+     "seconds": [
+      7.042602199828252,
+      7.049381700111553
+     ],
+     "word_errors": 1,
+     "words": 12,
+     "char_errors": 1,
+     "chars": 80
+    }
+   }
+  },
+  {
+   "id": "en_us-1761",
+   "language": "en",
+   "duration": 8.62,
+   "reference": "the photographers later took the place of an aged lady as she needed the lavatory mendoza was gunned down",
+   "known": {
+    "turbo": {
+     "text": "The photographers later took the place of an aged lady as she needed the lavatory. Mendoza was gunned down.",
+     "detected": "en",
+     "seconds": [
+      7.642474600113928,
+      7.4862528999801725
+     ],
+     "word_errors": 0,
+     "words": 19,
+     "char_errors": 0,
+     "chars": 87
+    },
+    "turbo-crop": {
+     "text": "The photographers later took the place of an aged lady as she needed the lavatory. Mendoza was gunned down.",
+     "detected": "en",
+     "seconds": [
+      1.8688089000061154,
+      1.854780799942091
+     ],
+     "word_errors": 0,
+     "words": 19,
+     "char_errors": 0,
+     "chars": 87
+    },
+    "yapper": {
+     "text": "The photographers later took the place of an aged lady as she needed the lavatory. Mendoza was gunned down.",
+     "detected": "en",
+     "seconds": [
+      1.766164799919352,
+      1.8208108998369426
+     ],
+     "word_errors": 0,
+     "words": 19,
+     "char_errors": 0,
+     "chars": 87
+    },
+    "yapper-plain": {
+     "text": "The photographers later took the place of an aged lady as she needed the lavatory. Mendoza was gunned down.",
+     "detected": "en",
+     "seconds": [
+      7.16481600003317,
+      7.172637999989092
+     ],
+     "word_errors": 0,
+     "words": 19,
+     "char_errors": 0,
+     "chars": 87
+    }
+   }
+  },
+  {
+   "id": "en_us-1948",
+   "language": "en",
+   "duration": 11.88,
+   "reference": "the three kingdoms was one of the bloodiest eras in ancient china's history thousands of people died fighting to sit in the highest seat in the grand palace at xi'an",
+   "known": {
+    "turbo": {
+     "text": "The Three Kingdoms was one of the bloodiest eras in ancient China's history. Thousands of people died fighting to sit in the highest seat in the Grand Palace at Zion.",
+     "detected": "en",
+     "seconds": [
+      7.6935868000146,
+      7.620136699872091
+     ],
+     "word_errors": 1,
+     "words": 30,
+     "char_errors": 2,
+     "chars": 134
+    },
+    "turbo-crop": {
+     "text": "The Three Kingdoms was one of the bloodiest eras in ancient China's history. Thousands of people died fighting to sit in the highest seat in the Grand Palace at Zion.",
+     "detected": "en",
+     "seconds": [
+      2.5646039000712335,
+      2.514992899959907
+     ],
+     "word_errors": 1,
+     "words": 30,
+     "char_errors": 2,
+     "chars": 134
+    },
+    "yapper": {
+     "text": "The Three Kingdoms was one of the bloodiest eras in ancient China's history. Thousands of people died fighting to sit in the highest seat in the Grand Palace at Zion.",
+     "detected": "en",
+     "seconds": [
+      2.460681200027466,
+      2.4142777000088245
+     ],
+     "word_errors": 1,
+     "words": 30,
+     "char_errors": 2,
+     "chars": 134
+    },
+    "yapper-plain": {
+     "text": "The Three Kingdoms was one of the bloodiest eras in ancient China's history. Thousands of people died fighting to sit in the highest seat in the Grand Palace at Zion.",
+     "detected": "en",
+     "seconds": [
+      7.3288636999204755,
+      7.313065700000152
+     ],
+     "word_errors": 1,
+     "words": 30,
+     "char_errors": 2,
+     "chars": 134
+    }
+   }
+  },
+  {
+   "id": "en_us-1897",
+   "language": "en",
+   "duration": 9.58,
+   "reference": "in the north the region is bounded by the sahel and in the south and west by the atlantic ocean",
+   "known": {
+    "turbo": {
+     "text": "In the north, the region is bounded by the Sahel and in the south and west by the Atlantic Ocean.",
+     "detected": "en",
+     "seconds": [
+      7.526830499991775,
+      7.538615999976173
+     ],
+     "word_errors": 0,
+     "words": 20,
+     "char_errors": 0,
+     "chars": 76
+    },
+    "turbo-crop": {
+     "text": "In the north, the region is bounded by the Sahel and in the south and west by the Atlantic Ocean.",
+     "detected": "en",
+     "seconds": [
+      2.034047699999064,
+      2.042848699958995
+     ],
+     "word_errors": 0,
+     "words": 20,
+     "char_errors": 0,
+     "chars": 76
+    },
+    "yapper": {
+     "text": "In the north, the region is bounded by the Sahel and in the south and west by the Atlantic Ocean.",
+     "detected": "en",
+     "seconds": [
+      1.9905180998612195,
+      1.857609799830243
+     ],
+     "word_errors": 0,
+     "words": 20,
+     "char_errors": 0,
+     "chars": 76
+    },
+    "yapper-plain": {
+     "text": "In the north, the region is bounded by the Sahel and in the south and west by the Atlantic Ocean.",
+     "detected": "en",
+     "seconds": [
+      7.204738599946722,
+      7.293517800047994
+     ],
+     "word_errors": 0,
+     "words": 20,
+     "char_errors": 0,
+     "chars": 76
+    }
+   }
+  },
+  {
+   "id": "en_us-1889",
+   "language": "en",
+   "duration": 4.86,
+   "reference": "it has brought us the train the car and many other transportation devices",
+   "known": {
+    "turbo": {
+     "text": "It has brought us the train, the car, and many other transportation devices.",
+     "detected": "en",
+     "seconds": [
+      7.466171900043264,
+      7.4136675000190735
+     ],
+     "word_errors": 0,
+     "words": 13,
+     "char_errors": 0,
+     "chars": 61
+    },
+    "turbo-crop": {
+     "text": "It has brought us the train, the car and many other transportation devices.",
+     "detected": "en",
+     "seconds": [
+      1.422322099795565,
+      1.3607016999740154
+     ],
+     "word_errors": 0,
+     "words": 13,
+     "char_errors": 0,
+     "chars": 61
+    },
+    "yapper": {
+     "text": "It has brought us the train, the car, and many other transportation devices.",
+     "detected": "en",
+     "seconds": [
+      1.3589419999625534,
+      1.3260700001847
+     ],
+     "word_errors": 0,
+     "words": 13,
+     "char_errors": 0,
+     "chars": 61
+    },
+    "yapper-plain": {
+     "text": "It has brought us the train, the car, and many other transportation devices.",
+     "detected": "en",
+     "seconds": [
+      7.237654400058091,
+      7.044237099820748
+     ],
+     "word_errors": 0,
+     "words": 13,
+     "char_errors": 0,
+     "chars": 61
+    }
+   }
+  },
+  {
+   "id": "en_us-1823",
+   "language": "en",
+   "duration": 7.68,
+   "reference": "traffic flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another",
+   "known": {
+    "turbo": {
+     "text": "Traffic flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another.",
+     "detected": "en",
+     "seconds": [
+      7.655517000006512,
+      7.618542099837214
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 120
+    },
+    "turbo-crop": {
+     "text": "Traffic flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another.",
+     "detected": "en",
+     "seconds": [
+      1.9460364000406116,
+      1.9285345000680536
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 120
+    },
+    "yapper": {
+     "text": "Traffic flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another.",
+     "detected": "en",
+     "seconds": [
+      1.5346280001103878,
+      1.5864711999893188
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 120
+    },
+    "yapper-plain": {
+     "text": "Traffic flow is the study of the movement of individual drivers and vehicles between two points and the interactions they make with one another.",
+     "detected": "en",
+     "seconds": [
+      7.141780100064352,
+      7.229043700033799
+     ],
+     "word_errors": 0,
+     "words": 24,
+     "char_errors": 0,
+     "chars": 120
+    }
+   }
+  },
+  {
+   "id": "en_us-1951",
+   "language": "en",
+   "duration": 10.38,
+   "reference": "in 2002 goma was destroyed by lava from the nyiragongo volcano which buried most of the town's streets particularly the town centre",
+   "known": {
+    "turbo": {
+     "text": "In 2002, Goma was destroyed by lava from the Nairagongo volcano which buried most of the town's streets, particularly the town center.",
+     "detected": "en",
+     "seconds": [
+      7.712872299831361,
+      7.71702290000394
+     ],
+     "word_errors": 2,
+     "words": 22,
+     "char_errors": 3,
+     "chars": 109
+    },
+    "turbo-crop": {
+     "text": "In 2002, Goma was destroyed by lava from the Nairagongo volcano which buried most of the town's streets, particularly the town center.",
+     "detected": "en",
+     "seconds": [
+      2.3528018000070006,
+      2.2783699000719935
+     ],
+     "word_errors": 2,
+     "words": 22,
+     "char_errors": 3,
+     "chars": 109
+    },
+    "yapper": {
+     "text": "In 2002, Goma was destroyed by lava from the Nairagongo volcano which buried most of the town's streets, particularly the town center.",
+     "detected": "en",
+     "seconds": [
+      2.202864699997008,
+      2.239750999957323
+     ],
+     "word_errors": 2,
+     "words": 22,
+     "char_errors": 3,
+     "chars": 109
+    },
+    "yapper-plain": {
+     "text": "In 2002, Goma was destroyed by lava from the Nairagongo volcano, which buried most of the town's streets, particularly the town center.",
+     "detected": "en",
+     "seconds": [
+      7.150392699986696,
+      7.259498399915174
+     ],
+     "word_errors": 2,
+     "words": 22,
+     "char_errors": 3,
+     "chars": 109
+    }
+   }
+  },
+  {
+   "id": "en_us-1788",
+   "language": "en",
+   "duration": 15.6,
+   "reference": "usa gymnastics supports the united states olympic committee's letter and accepts the absolute need of the olympic family to promote a safe environment for all of our athletes",
+   "known": {
+    "turbo": {
+     "text": "USA Gymnastics supports the United States Olympic Committee's letter and accepts the absolute need of the Olympic family to promote a safe environment for all of our athletes.",
+     "detected": "en",
+     "seconds": [
+      7.735820499947295,
+      7.705268600024283
+     ],
+     "word_errors": 0,
+     "words": 28,
+     "char_errors": 0,
+     "chars": 146
+    },
+    "turbo-crop": {
+     "text": "USA Gymnastics supports the United States Olympic Committee's letter and accepts the absolute need of the Olympic family to promote a safe environment for all of our athletes.",
+     "detected": "en",
+     "seconds": [
+      3.4167669001035392,
+      3.429470600094646
+     ],
+     "word_errors": 0,
+     "words": 28,
+     "char_errors": 0,
+     "chars": 146
+    },
+    "yapper": {
+     "text": "USA Gymnastics supports the United States Olympic Committee's letter and accepts the absolute need of the Olympic family to promote a safe environment for all of our athletes.",
+     "detected": "en",
+     "seconds": [
+      3.257846200140193,
+      3.2381521000061184
+     ],
+     "word_errors": 0,
+     "words": 28,
+     "char_errors": 0,
+     "chars": 146
+    },
+    "yapper-plain": {
+     "text": "USA Gymnastics supports the United States Olympic Committee's letter and accepts the absolute need of the Olympic family to promote a safe environment for all of our athletes.",
+     "detected": "en",
+     "seconds": [
+      7.311780499992892,
+      7.340794699965045
+     ],
+     "word_errors": 0,
+     "words": 28,
+     "char_errors": 0,
+     "chars": 146
+    }
+   }
+  },
+  {
+   "id": "en_us-1832",
+   "language": "en",
+   "duration": 9.3,
+   "reference": "popular sports include football basketball volleyball water-polo fencing rugby cycling ice hockey roller hockey and f1 motor racing",
+   "known": {
+    "turbo": {
+     "text": "Popular sports include football, basketball, volleyball, water polo, fencing, rugby, cycling, ice hockey, roller hockey, and F1 motor racing.",
+     "detected": "en",
+     "seconds": [
+      7.76092809997499,
+      7.706724200164899
+     ],
+     "word_errors": 0,
+     "words": 19,
+     "char_errors": 0,
+     "chars": 113
+    },
+    "turbo-crop": {
+     "text": "Popular sports include football, basketball, volleyball, water bolo, fencing, rugby, cycling, ice hockey, roller hockey, and F1 motor racing.",
+     "detected": "en",
+     "seconds": [
+      2.059600899927318,
+      2.068437800044194
+     ],
+     "word_errors": 1,
+     "words": 19,
+     "char_errors": 1,
+     "chars": 113
+    },
+    "yapper": {
+     "text": "Popular sports include football, basketball, volleyball, water polo, fencing, rugby, cycling, ice hockey, roller hockey, and F1 motor racing.",
+     "detected": "en",
+     "seconds": [
+      2.068304799962789,
+      1.9326592001598328
+     ],
+     "word_errors": 0,
+     "words": 19,
+     "char_errors": 0,
+     "chars": 113
+    },
+    "yapper-plain": {
+     "text": "Popular sports include football, basketball, volleyball, guadabolo, fencing, rugby, cycling, ice hockey, roller hockey, and F1 motor racing.",
+     "detected": "en",
+     "seconds": [
+      7.243623799877241,
+      7.251407099887729
+     ],
+     "word_errors": 2,
+     "words": 19,
+     "char_errors": 6,
+     "chars": 113
+    }
+   }
+  },
+  {
+   "id": "en_us-1727",
+   "language": "en",
+   "duration": 6.54,
+   "reference": "feral children may have experienced severe child abuse or trauma before being abandoned or running away",
+   "known": {
+    "turbo": {
+     "text": "Feral children may have experienced severe child abuse or trauma before being abandoned or running away.",
+     "detected": "en",
+     "seconds": [
+      8.932470900006592,
+      9.141749300062656
+     ],
+     "word_errors": 0,
+     "words": 16,
+     "char_errors": 0,
+     "chars": 88
+    },
+    "turbo-crop": {
+     "text": "Feral children may have experienced severe child abuse or trauma before being abandoned or running away.",
+     "detected": "en",
+     "seconds": [
+      1.9914489998482168,
+      1.788882799912244
+     ],
+     "word_errors": 0,
+     "words": 16,
+     "char_errors": 0,
+     "chars": 88
+    },
+    "yapper": {
+     "text": "Feral children may have experienced severe child abuse or trauma before being abandoned or running away.",
+     "detected": "en",
+     "seconds": [
+      1.3269250998273492,
+      1.5264918999746442
+     ],
+     "word_errors": 0,
+     "words": 16,
+     "char_errors": 0,
+     "chars": 88
+    },
+    "yapper-plain": {
+     "text": "Feral children may have experienced severe child abuse or trauma before being abandoned or running away.",
+     "detected": "en",
+     "seconds": [
+      7.0760127999819815,
+      8.448133999947459
+     ],
+     "word_errors": 0,
+     "words": 16,
+     "char_errors": 0,
+     "chars": 88
+    }
+   }
+  },
+  {
+   "id": "en_us-1927",
+   "language": "en",
+   "duration": 8.28,
+   "reference": "angel 2006 explains the continuum approach as a method being used to help organizations reach a higher level of performance",
+   "known": {
+    "turbo": {
+     "text": "Angel, 2006, explains the continuum approach as a method being used to help organizations reach a higher level of performance.",
+     "detected": "en",
+     "seconds": [
+      9.1760377001483,
+      8.553786000004038
+     ],
+     "word_errors": 0,
+     "words": 20,
+     "char_errors": 0,
+     "chars": 104
+    },
+    "turbo-crop": {
+     "text": "Angel, 2006, explains that continuum approach is a method being used to help organizations reach a higher level of performance.",
+     "detected": "en",
+     "seconds": [
+      2.2692898001987487,
+      2.303077399963513
+     ],
+     "word_errors": 2,
+     "words": 20,
+     "char_errors": 3,
+     "chars": 104
+    },
+    "yapper": {
+     "text": "Angel, 2006, explains that Continuum Approach is a method being used to help organizations reach a higher level of performance.",
+     "detected": "en",
+     "seconds": [
+      2.161373700015247,
+      2.308633300010115
+     ],
+     "word_errors": 2,
+     "words": 20,
+     "char_errors": 3,
+     "chars": 104
+    },
+    "yapper-plain": {
+     "text": "Angel, 2006, explains the continuum approach as a method being used to help organizations reach a higher level of performance.",
+     "detected": "en",
+     "seconds": [
+      8.6720926000271,
+      9.225911100162193
+     ],
+     "word_errors": 0,
+     "words": 20,
+     "char_errors": 0,
+     "chars": 104
+    }
+   }
+  },
+  {
+   "id": "en_us-1717",
+   "language": "en",
+   "duration": 10.92,
+   "reference": "due to the underwater topology the return flow is concentrated at a few deeper sections and a fast current to deep water may form there",
+   "known": {
+    "turbo": {
+     "text": "Due to the underwater topology, the return flow is concentrated at a few deeper sections and a fast current to deep water may form there.",
+     "detected": "en",
+     "seconds": [
+      8.767359199933708,
+      8.914400599896908
+     ],
+     "word_errors": 0,
+     "words": 25,
+     "char_errors": 0,
+     "chars": 111
+    },
+    "turbo-crop": {
+     "text": "Due to the underwater topology, the return flow is concentrated at a few deeper sections and a fast current to deep water may form there.",
+     "detected": "en",
+     "seconds": [
+      2.366655199788511,
+      2.56730469991453
+     ],
+     "word_errors": 0,
+     "words": 25,
+     "char_errors": 0,
+     "chars": 111
+    },
+    "yapper": {
+     "text": "Due to the underwater topology, the return flow is concentrated at a few deeper sections and a fast current to deep water may form there.",
+     "detected": "en",
+     "seconds": [
+      2.304639099864289,
+      2.443110200110823
+     ],
+     "word_errors": 0,
+     "words": 25,
+     "char_errors": 0,
+     "chars": 111
+    },
+    "yapper-plain": {
+     "text": "Due to the underwater topology, the return flow is concentrated at a few deeper sections and a fast current to deep water may form there.",
+     "detected": "en",
+     "seconds": [
+      7.4091054000891745,
+      8.201885800110176
+     ],
+     "word_errors": 0,
+     "words": 25,
+     "char_errors": 0,
+     "chars": 111
+    }
+   }
+  },
+  {
+   "id": "en_us-1865",
+   "language": "en",
+   "duration": 7.5,
+   "reference": "saint petersburg cruises include time in town. cruise passengers are exempted from visa requirements check the terms",
+   "known": {
+    "turbo": {
+     "text": "St. Petersburg cruises include time in town. Cruise passengers are exempted from visa requirements. Check the terms.",
+     "detected": "en",
+     "seconds": [
+      8.328395599965006,
+      9.511028900044039
+     ],
+     "word_errors": 1,
+     "words": 17,
+     "char_errors": 3,
+     "chars": 99
+    },
+    "turbo-crop": {
+     "text": "St. Petersburg cruises include time in town. Cruise passengers are exempted from visa requirements. Check the terms.",
+     "detected": "en",
+     "seconds": [
+      1.9063328998163342,
+      2.1395751000382006
+     ],
+     "word_errors": 1,
+     "words": 17,
+     "char_errors": 3,
+     "chars": 99
+    },
+    "yapper": {
+     "text": "St. Petersburg cruises include time in town. Cruise passengers are exempted from visa requirements. Check the terms.",
+     "detected": "en",
+     "seconds": [
+      1.716978200012818,
+      1.7914611999876797
+     ],
+     "word_errors": 1,
+     "words": 17,
+     "char_errors": 3,
+     "chars": 99
+    },
+    "yapper-plain": {
+     "text": "St. Petersburg cruises include time in town. Cruise passengers are exempted from visa requirements. Check the terms.",
+     "detected": "en",
+     "seconds": [
+      7.948103199945763,
+      8.598173799924552
+     ],
+     "word_errors": 1,
+     "words": 17,
+     "char_errors": 3,
+     "chars": 99
+    }
+   }
+  },
+  {
+   "id": "en_us-1963",
+   "language": "en",
+   "duration": 12.72,
+   "reference": "ironing damp clothes can help them dry many hotels have an iron and ironing board available for loan even if one is not present in the room",
+   "known": {
+    "turbo": {
+     "text": "Ironing damp clothes can help them dry. Many hotels have an iron and ironing board available for loan, even if one is not present in the room.",
+     "detected": "en",
+     "seconds": [
+      8.420174199854955,
+      8.510910999961197
+     ],
+     "word_errors": 0,
+     "words": 27,
+     "char_errors": 0,
+     "chars": 113
+    },
+    "turbo-crop": {
+     "text": "Ironing damp clothes can help them dry. Many hotels have an iron and ironing board available for loan, even if one is not present in the room.",
+     "detected": "en",
+     "seconds": [
+      3.2069548999425024,
+      2.9926978999283165
+     ],
+     "word_errors": 0,
+     "words": 27,
+     "char_errors": 0,
+     "chars": 113
+    },
+    "yapper": {
+     "text": "Ironing damp clothes can help them dry. Many hotels have an iron and ironing board available for loan, even if one is not present in the room.",
+     "detected": "en",
+     "seconds": [
+      2.95047409995459,
+      2.7954759998247027
+     ],
+     "word_errors": 0,
+     "words": 27,
+     "char_errors": 0,
+     "chars": 113
+    },
+    "yapper-plain": {
+     "text": "Ironing damp clothes can help them dry. Many hotels have an iron and ironing board available for loan, even if one is not present in the room.",
+     "detected": "en",
+     "seconds": [
+      7.666172000113875,
+      7.9558918999973685
+     ],
+     "word_errors": 0,
+     "words": 27,
+     "char_errors": 0,
+     "chars": 113
+    }
+   }
+  },
+  {
+   "id": "en_us-1758",
+   "language": "en",
+   "duration": 12.48,
+   "reference": "the archipelago lies 120 km north of the peninsula the largest is king george island with the settlement of villa las estrellas",
+   "known": {
+    "turbo": {
+     "text": "The archipelago lies 120 kilometers north of the peninsula. The largest is King George Island with the settlement of Via Las Astrias.",
+     "detected": "en",
+     "seconds": [
+      8.752940299920738,
+      9.056054499931633
+     ],
+     "word_errors": 3,
+     "words": 22,
+     "char_errors": 14,
+     "chars": 106
+    },
+    "turbo-crop": {
+     "text": "The archipelago lies 120 kilometers north of the peninsula. The largest is King George Island with the settlement of Villas Astrias.",
+     "detected": "en",
+     "seconds": [
+      3.173252400010824,
+      2.843121699988842
+     ],
+     "word_errors": 4,
+     "words": 22,
+     "char_errors": 14,
+     "chars": 106
+    },
+    "yapper": {
+     "text": "The archipelago lies 120 kilometers north of the peninsula. The largest is King George Island with the settlement of Via Los Astreos.",
+     "detected": "en",
+     "seconds": [
+      2.8449182000476867,
+      2.692681800108403
+     ],
+     "word_errors": 4,
+     "words": 22,
+     "char_errors": 15,
+     "chars": 106
+    },
+    "yapper-plain": {
+     "text": "The archipelago lies 120 kilometers north of the peninsula. The largest is King George Island with the settlement of Via Las Estrias.",
+     "detected": "en",
+     "seconds": [
+      7.872126500122249,
+      7.8507069000042975
+     ],
+     "word_errors": 3,
+     "words": 22,
+     "char_errors": 13,
+     "chars": 106
+    }
+   }
+  },
+  {
+   "id": "en_us-1879",
+   "language": "en",
+   "duration": 5.46,
+   "reference": "one can only wonder what the keyboard will become when something newer comes along",
+   "known": {
+    "turbo": {
+     "text": "One can only wonder what the keyboard will become when something newer comes along.",
+     "detected": "en",
+     "seconds": [
+      9.6624839999713,
+      7.800044300034642
+     ],
+     "word_errors": 0,
+     "words": 14,
+     "char_errors": 0,
+     "chars": 69
+    },
+    "turbo-crop": {
+     "text": "One can only wonder what the keyboard will become when something newer comes along.",
+     "detected": "en",
+     "seconds": [
+      1.726023699855432,
+      1.5351416999474168
+     ],
+     "word_errors": 0,
+     "words": 14,
+     "char_errors": 0,
+     "chars": 69
+    },
+    "yapper": {
+     "text": "One can only wonder what the keyboard will become when something newer comes along.",
+     "detected": "en",
+     "seconds": [
+      1.4599871998652816,
+      1.4168638000264764
+     ],
+     "word_errors": 0,
+     "words": 14,
+     "char_errors": 0,
+     "chars": 69
+    },
+    "yapper-plain": {
+     "text": "One can only wonder what the keyboard will become when something newer comes along.",
+     "detected": "en",
+     "seconds": [
+      7.589042699895799,
+      7.245092299999669
+     ],
+     "word_errors": 0,
+     "words": 14,
+     "char_errors": 0,
+     "chars": 69
+    }
+   }
+  },
+  {
+   "id": "en_us-1878",
+   "language": "en",
+   "duration": 9.24,
+   "reference": "the central authority of the church had been in rome for over a thousand years and this concentration of power and money led many to question whether this tenet was being met",
+   "known": {
+    "turbo": {
+     "text": "A central authority of the Church had been in Rome for over a thousand years, and this concentration of power and money led many to question whether this tenant was being met.",
+     "detected": "en",
+     "seconds": [
+      9.204834199976176,
+      9.672387700062245
+     ],
+     "word_errors": 2,
+     "words": 32,
+     "char_errors": 5,
+     "chars": 143
+    },
+    "turbo-crop": {
+     "text": "A central authority of the church had been in Rome for over a thousand years and this concentration of power and money led many to question whether this tenant was being met.",
+     "detected": "en",
+     "seconds": [
+      2.122292899992317,
+      2.6257056000176817
+     ],
+     "word_errors": 2,
+     "words": 32,
+     "char_errors": 5,
+     "chars": 143
+    },
+    "yapper": {
+     "text": "A central authority of the Church had been in Rome for over a thousand years, and this concentration of power and money led many to question whether this tenant was being met.",
+     "detected": "en",
+     "seconds": [
+      2.1430399999953806,
+      2.5130196001846343
+     ],
+     "word_errors": 2,
+     "words": 32,
+     "char_errors": 5,
+     "chars": 143
+    },
+    "yapper-plain": {
+     "text": "A central authority of the Church had been in Rome for over a thousand years, and this concentration of power and money led many to question whether this tenant was being met.",
+     "detected": "en",
+     "seconds": [
+      7.286617200123146,
+      9.293931599939242
+     ],
+     "word_errors": 2,
+     "words": 32,
+     "char_errors": 5,
+     "chars": 143
+    }
+   }
+  },
+  {
+   "id": "en_us-1840",
+   "language": "en",
+   "duration": 8.4,
+   "reference": "in many other cities of italy and in the rest of the world particularly in poland similar setups were made which were viewed by a great number of people",
+   "known": {
+    "turbo": {
+     "text": "In many other cities of Italy and in the rest of the world, particularly in Poland, similar setups were made, which were viewed by a great number of people.",
+     "detected": "en",
+     "seconds": [
+      9.108566200127825,
+      7.436360199935734
+     ],
+     "word_errors": 0,
+     "words": 29,
+     "char_errors": 0,
+     "chars": 124
+    },
+    "turbo-crop": {
+     "text": "In many other cities of Italy and in the rest of the world, particularly in Poland, similar setups were made, which were viewed by a great number of people.",
+     "detected": "en",
+     "seconds": [
+      1.9100355000700802,
+      1.9455102998763323
+     ],
+     "word_errors": 0,
+     "words": 29,
+     "char_errors": 0,
+     "chars": 124
+    },
+    "yapper": {
+     "text": "In many other cities of Italy and in the rest of the world, particularly in Poland, similar setups were made, which were viewed by a great number of people.",
+     "detected": "en",
+     "seconds": [
+      2.2503524001222104,
+      1.8685365999117494
+     ],
+     "word_errors": 0,
+     "words": 29,
+     "char_errors": 0,
+     "chars": 124
+    },
+    "yapper-plain": {
+     "text": "In many other cities of Italy and in the rest of the world, particularly in Poland, similar setups were made, which were viewed by a great number of people.",
+     "detected": "en",
+     "seconds": [
+      8.736085699871182,
+      7.062936600064859
+     ],
+     "word_errors": 0,
+     "words": 29,
+     "char_errors": 0,
+     "chars": 124
+    }
+   }
+  },
+  {
+   "id": "en_us-1870",
+   "language": "en",
+   "duration": 4.32,
+   "reference": "the scenes are displayed on the pyramids and the different pyramids are lit up",
+   "known": {
+    "turbo": {
+     "text": "The scenes are displayed on the pyramids and the different pyramids are lit up.",
+     "detected": "en",
+     "seconds": [
+      8.287013900000602,
+      7.866124500054866
+     ],
+     "word_errors": 0,
+     "words": 14,
+     "char_errors": 0,
+     "chars": 65
+    },
+    "turbo-crop": {
+     "text": "The scenes are displayed on the pyramids and the different pyramids are lit up.",
+     "detected": "en",
+     "seconds": [
+      1.7600223999470472,
+      1.4389835000038147
+     ],
+     "word_errors": 0,
+     "words": 14,
+     "char_errors": 0,
+     "chars": 65
+    },
+    "yapper": {
+     "text": "The scenes are displayed on the pyramids and the different pyramids are lit up.",
+     "detected": "en",
+     "seconds": [
+      1.8168991999700665,
+      1.451508500147611
+     ],
+     "word_errors": 0,
+     "words": 14,
+     "char_errors": 0,
+     "chars": 65
+    },
+    "yapper-plain": {
+     "text": "The scenes are displayed on the pyramids and the different pyramids are lit up.",
+     "detected": "en",
+     "seconds": [
+      6.92153019993566,
+      7.736182299908251
+     ],
+     "word_errors": 0,
+     "words": 14,
+     "char_errors": 0,
+     "chars": 65
+    }
+   }
+  },
+  {
+   "id": "en_us-1760",
+   "language": "en",
+   "duration": 6.9,
+   "reference": "mosasaurus was the apex predator of its time so it feared nothing except other mosasaurs",
+   "known": {
+    "turbo": {
+     "text": "Mosaseres was the apex predator of its time so it feared nothing except other Mosaseres.",
+     "detected": "en",
+     "seconds": [
+      8.516107399947941,
+      7.895131599856541
+     ],
+     "word_errors": 2,
+     "words": 15,
+     "char_errors": 6,
+     "chars": 74
+    },
+    "turbo-crop": {
+     "text": "Mosaseras was the apex predator of its time so it feared nothing except other Mosaseras.",
+     "detected": "en",
+     "seconds": [
+      1.7560167000629008,
+      1.7404965998139232
+     ],
+     "word_errors": 2,
+     "words": 15,
+     "char_errors": 6,
+     "chars": 74
+    },
+    "yapper": {
+     "text": "Mosasaurus was the apex predator of its time, so it feared nothing except other Mosasaurus.",
+     "detected": "en",
+     "seconds": [
+      1.557916299905628,
+      1.2069080001674592
+     ],
+     "word_errors": 1,
+     "words": 15,
+     "char_errors": 1,
+     "chars": 74
+    },
+    "yapper-plain": {
+     "text": "Mosoceros was the apex predator of its time, so it feared nothing except other mosoceros.",
+     "detected": "en",
+     "seconds": [
+      7.869224099908024,
+      6.697426199913025
+     ],
+     "word_errors": 2,
+     "words": 15,
+     "char_errors": 10,
+     "chars": 74
+    }
+   }
+  },
+  {
+   "id": "en_us-1810",
+   "language": "en",
+   "duration": 11.34,
+   "reference": "california governor arnold schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors",
+   "known": {
+    "turbo": {
+     "text": "California Governor Arnold Schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors.",
+     "detected": "en",
+     "seconds": [
+      7.658372400095686,
+      8.108914899872616
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 106
+    },
+    "turbo-crop": {
+     "text": "California Governor Arnold Schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors.",
+     "detected": "en",
+     "seconds": [
+      2.669272500090301,
+      3.0578749999403954
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 106
+    },
+    "yapper": {
+     "text": "California Governor Arnold Schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors.",
+     "detected": "en",
+     "seconds": [
+      2.1200141001027077,
+      2.470930399838835
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 106
+    },
+    "yapper-plain": {
+     "text": "California Governor Arnold Schwarzenegger signed into law a bill that bans the sale or rental of violent video games to minors.",
+     "detected": "en",
+     "seconds": [
+      6.604756999993697,
+      7.780330200213939
+     ],
+     "word_errors": 0,
+     "words": 21,
+     "char_errors": 0,
+     "chars": 106
+    }
+   }
+  },
+  {
+   "id": "en_us-1741",
+   "language": "en",
+   "duration": 7.44,
+   "reference": "large areas further north are quite sparsely populated and some is nearly uninhabited wilderness",
+   "known": {
+    "turbo": {
+     "text": "Large areas further north are quite sparsely populated and some is nearly uninhabited wilderness.",
+     "detected": "en",
+     "seconds": [
+      7.032062700018287,
+      7.404668799834326
+     ],
+     "word_errors": 0,
+     "words": 14,
+     "char_errors": 0,
+     "chars": 83
+    },
+    "turbo-crop": {
+     "text": "Large areas further north are quite sparsely populated and some is nearly uninhabited wilderness.",
+     "detected": "en",
+     "seconds": [
+      1.4413793999701738,
+      1.5162263000383973
+     ],
+     "word_errors": 0,
+     "words": 14,
+     "char_errors": 0,
+     "chars": 83
+    },
+    "yapper": {
+     "text": "Large areas further north are quite sparsely populated and some is nearly uninhabited wilderness.",
+     "detected": "en",
+     "seconds": [
+      1.4898216999135911,
+      1.432950699934736
+     ],
+     "word_errors": 0,
+     "words": 14,
+     "char_errors": 0,
+     "chars": 83
+    },
+    "yapper-plain": {
+     "text": "Large areas further north are quite sparsely populated and some is nearly uninhabited wilderness.",
+     "detected": "en",
+     "seconds": [
+      7.137361900182441,
+      7.16106089996174
+     ],
+     "word_errors": 0,
+     "words": 14,
+     "char_errors": 0,
+     "chars": 83
+    }
+   }
+  },
+  {
+   "id": "en_us-1753",
+   "language": "en",
+   "duration": 20.18,
+   "reference": "while this is often only an inaccurate stereotype the best way to get along in paris still is to be on your best behavior acting like someone who is bien élevé well brought up. it will make getting about considerably easier",
+   "known": {
+    "turbo": {
+     "text": "While this is often only an accurate stereotype, the best way to get along in Paris still is to be on your best behavior, acting like someone who is bien evolved, well brought up. It will make getting about considerably easier.",
+     "detected": "en",
+     "seconds": [
+      7.652592099970207,
+      10.524371299892664
+     ],
+     "word_errors": 2,
+     "words": 41,
+     "char_errors": 8,
+     "chars": 182
+    },
+    "turbo-crop": {
+     "text": "While this is often only an accurate stereotype, the best way to get along in Paris still is to be on your best behavior, acting like someone who is bien éveil, well brought off. It will make getting about considerably easier.",
+     "detected": "en",
+     "seconds": [
+      4.826628200011328,
+      6.843136300100014
+     ],
+     "word_errors": 3,
+     "words": 41,
+     "char_errors": 8,
+     "chars": 182
+    },
+    "yapper": {
+     "text": "While this is often only an accurate stereotype, the best way to get along in Paris still is to be on your best behavior, acting like someone who is bien évelle, well brought off. It will make getting about considerably easier.",
+     "detected": "en",
+     "seconds": [
+      4.459706500172615,
+      5.824498699977994
+     ],
+     "word_errors": 3,
+     "words": 41,
+     "char_errors": 9,
+     "chars": 182
+    },
+    "yapper-plain": {
+     "text": "While this is often only an accurate stereotype, the best way to get along in Paris still is to be on your best behavior, acting like someone who is bien-evalued, well brought off. It will make getting about considerably easier.",
+     "detected": "en",
+     "seconds": [
+      6.74910379992798,
+      8.696485699852929
+     ],
+     "word_errors": 3,
+     "words": 41,
+     "char_errors": 11,
+     "chars": 182
+    }
+   }
+  }
+ ],
+ "summary": {
+  "known": {
+   "en": {
+    "turbo": {
+     "wer": 0.04046242774566474,
+     "word_errors": 28,
+     "words": 692,
+     "cer": 0.01804123711340206,
+     "seconds": 242.73360069957562,
+     "audio_seconds": 304.3,
+     "realtime": 1.2536377292759866,
+     "wrong_language": 0
+    },
+    "turbo-crop": {
+     "wer": 0.046242774566473986,
+     "word_errors": 32,
+     "words": 692,
+     "cer": 0.019473081328751432,
+     "seconds": 73.63054494955577,
+     "audio_seconds": 304.3,
+     "realtime": 4.13279570602765,
+     "wrong_language": 0
+    },
+    "yapper": {
+     "wer": 0.04190751445086705,
+     "word_errors": 29,
+     "words": 692,
+     "cer": 0.017754868270332187,
+     "seconds": 68.26363124989439,
+     "audio_seconds": 304.3,
+     "realtime": 4.457717739714744,
+     "wrong_language": 0
+    },
+    "yapper-plain": {
+     "wer": 0.0476878612716763,
+     "word_errors": 33,
+     "words": 692,
+     "cer": 0.0220504009163803,
+     "seconds": 224.98385859990958,
+     "audio_seconds": 304.3,
+     "realtime": 1.352541475169287,
+     "wrong_language": 0
+    }
+   },
+   "it": {
+    "turbo": {
+     "wer": 0.033478893740902474,
+     "word_errors": 23,
+     "words": 687,
+     "cer": 0.014933333333333333,
+     "seconds": 247.38646069995593,
+     "audio_seconds": 435.96,
+     "realtime": 1.7622629741599178,
+     "wrong_language": 0
+    },
+    "turbo-crop": {
+     "wer": 0.20378457059679767,
+     "word_errors": 140,
+     "words": 687,
+     "cer": 0.15813333333333332,
+     "seconds": 109.7891303000506,
+     "audio_seconds": 435.96,
+     "realtime": 3.970884902799882,
+     "wrong_language": 0
+    },
+    "yapper": {
+     "wer": 0.03202328966521106,
+     "word_errors": 22,
+     "words": 687,
+     "cer": 0.0128,
+     "seconds": 100.12476569984574,
+     "audio_seconds": 435.96,
+     "realtime": 4.3541674924555815,
+     "wrong_language": 0
+    },
+    "yapper-plain": {
+     "wer": 0.024745269286754003,
+     "word_errors": 17,
+     "words": 687,
+     "cer": 0.0061333333333333335,
+     "seconds": 228.13825475005433,
+     "audio_seconds": 435.96,
+     "realtime": 1.9109465024953083,
+     "wrong_language": 0
+    }
+   },
+   "all": {
+    "turbo": {
+     "wer": 0.03698332124728064,
+     "word_errors": 51,
+     "words": 1379,
+     "cer": 0.01643192488262911,
+     "seconds": 490.12006139953155,
+     "audio_seconds": 740.26,
+     "realtime": 1.5103646194081448,
+     "wrong_language": 0
+    },
+    "turbo-crop": {
+     "wer": 0.12472806381435823,
+     "word_errors": 172,
+     "words": 1379,
+     "cer": 0.09127312896989782,
+     "seconds": 183.41967524960637,
+     "audio_seconds": 740.26,
+     "realtime": 4.035881096139868,
+     "wrong_language": 0
+    },
+    "yapper": {
+     "wer": 0.03698332124728064,
+     "word_errors": 51,
+     "words": 1379,
+     "cer": 0.015189174261253798,
+     "seconds": 168.38839694974013,
+     "audio_seconds": 740.26,
+     "realtime": 4.396146132449671,
+     "wrong_language": 0
+    },
+    "yapper-plain": {
+     "wer": 0.03625815808556925,
+     "word_errors": 50,
+     "words": 1379,
+     "cer": 0.013808340237503451,
+     "seconds": 453.1221133499639,
+     "audio_seconds": 740.26,
+     "realtime": 1.633687648848575,
+     "wrong_language": 0
+    }
+   }
+  }
+ }
+}
