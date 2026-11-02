@@ -1,0 +1,6 @@
+.dev/
+__pycache__/
+*.pyc
+eval/data/
+model/
+*.zip
