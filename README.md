@@ -85,6 +85,10 @@ The encoder comes from an earlier Yapper model derived from large-v3-turbo. The 
 
 Reproduce the evaluation with `eval/prepare_fresh.py`, `eval/benchmark.py` and `eval/summarize.py`. This release includes weights, usage code and evaluation. It does not include training code.
 
+## Related work
+
+Shortening Whisper's encoder context is not new: whisper.cpp exposes it as `audio_ctx`, and [FUTO's whisper-acft](https://github.com/futo-org/whisper-acft) fine-tunes Whisper models so they tolerate a dynamic context. This release applies the same general idea to large-v3-turbo with an INT8 runtime. It has not been compared with whisper-acft models.
+
 ## License
 
 Weights and code are MIT. See `LICENSE` and `NOTICE`. The Yapper name and logo are not licensed.
